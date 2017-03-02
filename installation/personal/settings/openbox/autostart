@@ -77,7 +77,7 @@ al-start-pulseaudio-x11
 pasystray &
 
 ## Start the Conky session (the default conkyrc will run if no sessions have been set)
-al-conky-session --autostart &
+#al-conky-session --autostart &
 
 ## Start the battery applet
 #fdpowermon &

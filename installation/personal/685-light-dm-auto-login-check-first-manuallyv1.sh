@@ -14,8 +14,8 @@ set -e
 
 echo "Autologin for user ??? - change username "
 
-sudo sed -i 's/#autologin-user=/autologin-user=erik/g' /etc/oblogout.conf
-sudo sed -i 's/#autologin-session=/autologin-session=openbox/g' /etc/oblogout.conf
+sudo sed -i 's/#autologin-user=/autologin-user=erik/g' /etc/lightdm/lightdm.conf
+sudo sed -i 's/#autologin-session=/autologin-session=openbox/g' /etc/lightdm/lightdm.conf
 
 sudo groupadd -r autologin
 
