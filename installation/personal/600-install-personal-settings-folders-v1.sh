@@ -46,6 +46,7 @@ echo "################################################################"
 [ -d $HOME"/Music" ] || mkdir -p $HOME"/Music"
 [ -d $HOME"/Pictures" ] || mkdir -p $HOME"/Pictures"
 [ -d $HOME"/Videos" ] || mkdir -p $HOME"/Videos"
+[ -d $HOME"/Screenshots" ] || mkdir -p $HOME"/Screenshots"
 
 
 echo "################################################################"
