@@ -1,0 +1,80 @@
+o C-A-Left        	GoToDesktop
+x A-t             	variety -t
+x A-f             	variety -f
+x A-p             	variety -p
+x A-Left          	variety -p
+x A-n             	variety -n
+x A-Right         	variety -n
+x A-Down          	variety --resume
+x A-Up            	variety --pause
+x W-l             	oblogout
+x W-Pause         	oblogout
+x C-A-k           	obkey
+x W-F6            	vlc
+x W-F8            	nemo
+x W-F9            	evolution
+x W-F10           	spotify
+o S-W-q           	Close
+x C-S-Escape      	gnome-system-monitor
+x W-F5            	meld
+x W-F4            	gimp
+x W-F3            	inkscape
+x W-F2            	subl3
+x W-F1            	firefox
+x C-A-V           	vivaldi-stable
+x C-A-B           	nemo
+x C-A-W           	subl3
+x C-A-S           	spotify
+x C-A-C           	catfish
+x C-A-F           	firefox
+x W-Return        	gnome-terminal
+x S-W-Return      	nemo
+x C-A-N           	nemo --quit
+x W-d             	dmenu_run -i -nb '#151617' -nf '#d8d8d8' -sb '#d8d8d8' -sf '#151617' -fn 'NotoMonoRegular:bold:pixelsize=18'
+x C-A-T           	gnome-terminal
+o C-A-Right       	GoToDesktop
+o C-A-Up          	GoToDesktop
+o C-A-Down        	GoToDesktop
+o S-A-Left        	SendToDesktop
+o S-A-Right       	SendToDesktop
+o S-A-Up          	SendToDesktop
+o S-A-Down        	SendToDesktop
+o W-b             	ToggleDecorations
+o A-F4            	Close
+o A-F5            	Iconify
+o A-F6            	ToggleMaximize
+o A-Escape        	Lower
+o A-space         	client-menu
+x Print           	xfce4-screenshooter
+x A-Print         	scrot '%Y-%m-%d--%s_$wx$h_scrot.png' -e 'mv $f ~/Pictures/screenshots/ ; bl-image-viewer ~/Pictures/screenshots/$f'
+x C-Print         	gnome-screenshot -i
+o A-Tab           	NextWindow
+o A-S-Tab         	PreviousWindow
+o C-A-Tab         	NextWindow
+o W-S-Right       	DirectionalCycleWindows
+o W-S-Left        	DirectionalCycleWindows
+o W-S-Up          	DirectionalCycleWindows
+o W-S-Down        	DirectionalCycleWindows
+x A-F2            	gmrun
+x A-F3            	dmenu_run -i -nb '#151617' -nf '#d8d8d8' -sb '#d8d8d8' -sf '#151617' -fn 'NotoMonoRegular:bold:pixelsize=18'
+o W-f             	ToggleMaximizeFull
+x W-t             	termite
+x W-w             	chromium
+x W-l             	slimlock
+x W-e             	geany
+x W-m             	audacious
+x W-h             	urxvt -T 'htop task manager' -e htop
+x W-v             	pavucontrol
+x W-x             	oblogout
+x W-Escape        	xkill
+o W-Tab           	client-list-combined-menu
+o W-space         	root-menu
+o A-C-q           	root-menu
+o W-Right         	GrowToEdgeEast
+o W-Left          	GrowToEdgeWest
+o W-Down          	GrowToEdgeSouth
+o W-Up            	GrowToEdgeNorth
+o W-A-Left        	UnmaximizeFull
+o W-A-Right       	UnmaximizeFull
+o A-r             	Resize
+o A-m             	Move
