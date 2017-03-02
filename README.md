@@ -1,17 +1,13 @@
-# AntergosOpenbox
+# ArchLabs
 
-##How to install Antergos Openbox and customize it
+# WORK IN PROGRESS
 
-All information about the installation and customization of Antergos Openbox can be found in this **article** and is explained in **several youtube tutorials** : 
+##How to install ArchLabs and customize it
 
-Detailed version
-http://erikdubois.be/how-to-install-openbox-on-antergos-and-customize-it/ 
+All information about the installation and customization of ArchLabs can be found in this **article** and is explained in **several youtube tutorials** : 
 
-Quick installation version
-http://erikdubois.be/how-to-quickly-install-openbox-on-antergos-and-customize-it/
+http://erikdubois.be/how-to-install-archlabs-and-customize-it/ 
 
-Official antergos downloads can be found at 
-http://antergos.com/try-it/
 
 
 # Initial look
@@ -194,16 +190,11 @@ use the git clone command
 
 
 
-# Youtube Resources Antergos Openbox
+# Youtube Resources ArchLabs
 
 
 https://www.youtube.com/playlist?list=PLlloYVGq5pS4TgjFWxH07oIoFiCTuz3GW
 
-
-# Youtube Resources all Antergos
-
-
-https://www.youtube.com/playlist?list=PLlloYVGq5pS5DGx2EHIZxOGVTf9JikalO
 
 
 # Resources
