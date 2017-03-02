@@ -14,12 +14,12 @@ http://erikdubois.be/how-to-install-archlabs-and-customize-it/
 
 Let us first take a screenshot of the initial look of this distro.
 
-![Screenshots](http://i.imgur.com/9AgDmzn.jpg)
+![Screenshots](http://i.imgur.com/zNHaPlF.jpg)
 
 
 # What can you achieve?
 
-![Screenshots](http://i.imgur.com/o4K47ys.png)
+
 
 
 
