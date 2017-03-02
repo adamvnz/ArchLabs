@@ -1,0 +1,16 @@
+[options]
+font = Monospace 15
+#fullscreen = true
+geometry = 900x650
+scrollback_lines = 15000
+clickable_url = true
+
+[colors]
+background= rgba(63, 63, 63, 0.8)
+
+[hints]
+
+
+
+
+
