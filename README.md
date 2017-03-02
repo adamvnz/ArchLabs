@@ -193,7 +193,7 @@ use the git clone command
 # Youtube Resources ArchLabs
 
 
-https://www.youtube.com/playlist?list=PLlloYVGq5pS4TgjFWxH07oIoFiCTuz3GW
+
 
 
 
