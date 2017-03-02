@@ -6,7 +6,7 @@ scrollback_lines = 15000
 clickable_url = true
 
 [colors]
-background= rgba(63, 63, 63, 0.8)
+background= rgba(64, 69, 82, 0.7)
 
 [hints]
 

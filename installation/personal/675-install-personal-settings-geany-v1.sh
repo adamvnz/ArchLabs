@@ -11,18 +11,20 @@ set -e
 #
 ##################################################################################################################
 
-echo "################################################################"
-echo "#########        Creating folders               ################"
-echo "################################################################"
 
-[ -d $HOME"/.config/openbox" ] || mkdir -p $HOME"/.config/openbox"
-[ -d $HOME"/.config/obmenu-generator" ] || mkdir -p $HOME"/.config/obmenu-generator"
+echo "copying geany settings "
+
+# changing the theme to random so you can enjoy tons of themes.
 
 [ -d $HOME"/.config/geany" ] || mkdir -p $HOME"/.config/geany"
 
-[ -d $HOME"/.config/termite" ] || mkdir -p $HOME"/.config/termite"
+
+cp settings/geany/geany.conf ~/.config/geany/
+cp -r settings/geany/colorschemes/ ~/.config/geany/
+
 
 
 echo "################################################################"
-echo "#########            folders created            ################"
+echo "#########     geany settings have been copied   ################"
 echo "################################################################"
+
