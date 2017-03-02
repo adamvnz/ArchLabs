@@ -14,8 +14,6 @@ set -e
 
 echo "copying uxrvt settings "
 
-# changing the theme to random so you can enjoy tons of themes.
-
 
 cp settings/urxvt/.Xdefaults ~/
 

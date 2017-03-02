@@ -10,20 +10,19 @@ set -e
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
 #
 ##################################################################################################################
+#see arch wiki lightdm autologin
 
+echo "Autologin for user ??? - change username "
 
-echo "copying geany settings "
+sudo sed -i 's/#autologin-user=/autologin-user=erik/g' /etc/oblogout.conf
+sudo sed -i 's/#autologin-session=/autologin-session=openbox/g' /etc/oblogout.conf
 
+sudo groupadd -r autologin
 
-[ -d $HOME"/.config/geany" ] || mkdir -p $HOME"/.config/geany"
-
-
-cp settings/geany/geany.conf ~/.config/geany/
-cp -r settings/geany/colorschemes/ ~/.config/geany/
-
-
+# erik is my login
+sudo gpasswd -a erik autologin
 
 echo "################################################################"
-echo "#########     geany settings have been copied   ################"
+echo "#########                     ligthtdm automatic login enabled           ################"
 echo "################################################################"
 

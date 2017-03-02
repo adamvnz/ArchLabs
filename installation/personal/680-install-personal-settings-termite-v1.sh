@@ -14,7 +14,6 @@ set -e
 
 echo "copying termite settings "
 
-# changing the theme to random so you can enjoy tons of themes.
 
 [ -d $HOME"/.config/termite" ] || mkdir -p $HOME"/.config/termite"
 
