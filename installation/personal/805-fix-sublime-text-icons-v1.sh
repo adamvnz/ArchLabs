@@ -40,22 +40,22 @@ sudo cp settings/sublimetext/png/256x256/* /usr/share/icons/hicolor/256x256/apps
 # these are for the icon in the plank
 
 
-sudo mv /opt/sublime_text/Icon/16x16/sublime-text.png /opt/sublime_text/Icon/16x16/sublime-text.backup.png
+sudo mv /opt/sublime_text_3/Icon/16x16/sublime-text.png /opt/sublime_text_3/Icon/16x16/sublime-text.backup.png
 
-sudo mv /opt/sublime_text/Icon/32x32/sublime-text.png /opt/sublime_text/Icon/32x32/sublime-text.backup.png
+sudo mv /opt/sublime_text_3/Icon/32x32/sublime-text.png /opt/sublime_text_3/Icon/32x32/sublime-text.backup.png
 
-sudo mv /opt/sublime_text/Icon/48x48/sublime-text.png /opt/sublime_text/Icon/48x48/sublime-text.backup.png
+sudo mv /opt/sublime_text_3/Icon/48x48/sublime-text.png /opt/sublime_text_3/Icon/48x48/sublime-text.backup.png
 
-sudo mv /opt/sublime_text/Icon/128x128/sublime-text.png /opt/sublime_text/Icon/128x128/sublime-text.backup.png
+sudo mv /opt/sublime_text_3/Icon/128x128/sublime-text.png /opt/sublime_text_3/Icon/128x128/sublime-text.backup.png
 
-sudo mv /opt/sublime_text/Icon/256x256/sublime-text.png /opt/sublime_text/Icon/256x256/sublime-text.backup.png
+sudo mv /opt/sublime_text_3/Icon/256x256/sublime-text.png /opt/sublime_text_3/Icon/256x256/sublime-text.backup.png
 
 
-sudo cp settings/sublimetext/png/16x16/* /opt/sublime_text/Icon/16x16/
-sudo cp settings/sublimetext/png/32x32/* /opt/sublime_text/Icon/32x32/
-sudo cp settings/sublimetext/png/48x48/* /opt/sublime_text/Icon/48x48/
-sudo cp settings/sublimetext/png/128x128/* /opt/sublime_text/Icon/128x128/
-sudo cp settings/sublimetext/png/256x256/* /opt/sublime_text/Icon/256x256/
+sudo cp settings/sublimetext/png/16x16/* /opt/sublime_text_3/Icon/16x16/
+sudo cp settings/sublimetext/png/32x32/* /opt/sublime_text_3/Icon/32x32/
+sudo cp settings/sublimetext/png/48x48/* /opt/sublime_text_3/Icon/48x48/
+sudo cp settings/sublimetext/png/128x128/* /opt/sublime_text_3/Icon/128x128/
+sudo cp settings/sublimetext/png/256x256/* /opt/sublime_text_3/Icon/256x256/
 
 
 
