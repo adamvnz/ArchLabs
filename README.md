@@ -32,6 +32,12 @@ Let us first take a screenshot of the initial look of this distro.
 ![Screenshots](http://i.imgur.com/1SKTxin.jpg)
 
 
+# Logout screen
+
+Xfce4-slimlock in action
+
+![Screenshots](http://i.imgur.com/py2QQbJ.jpg)
+
 ##Software installation
 
 We start the installation scripts of all the needed software via the terminal.
