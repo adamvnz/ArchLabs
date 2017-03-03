@@ -8,6 +8,11 @@ All information about the installation and customization of ArchLabs can be foun
 
 http://erikdubois.be/how-to-install-archlabs-and-customize-it/ 
 
+# ArchLabs installation peek
+
+ArchLinux installation can be difficult for linux beginners. That is where the graphical installers can assist us. ArchLabs is using such an aid to make an installation as easy as pie.
+
+![Screenshots](http://i.imgur.com/YT6yIQZ.jpg)
 
 
 # Initial look
@@ -21,6 +26,10 @@ Let us first take a screenshot of the initial look of this distro.
 
 
 ![Screenshots](http://i.imgur.com/NqNraJu.jpg)
+
+![Screenshots](http://i.imgur.com/yLRwmqf.jpg)
+
+![Screenshots](http://i.imgur.com/1SKTxin.jpg)
 
 
 ##Software installation
@@ -128,6 +137,11 @@ More info can be found here : https://github.com/erikdubois/Surfn
 
 ##Install the Aureola conky collection
 
+Special conky colours for ArchLab created
+
+
+![Screenshots](http://i.imgur.com/FL8PgNM.jpg)
+
 
 This is an exercise in writing conky configurations in lua syntax.
 
@@ -196,7 +210,6 @@ use the git clone command
 
 
 
-
 # Resources
 
 
@@ -210,11 +223,16 @@ https://sourceforge.net/projects/sardi/files/
 
 https://github.com/erikdubois/Surfn
 
+
+
 **Aureola conky**
+
 	
 http://erikdubois.be/category/linux/aureola/
 
 https://github.com/erikdubois/Aureola
+
+
 
 **Arc Colora**
 
