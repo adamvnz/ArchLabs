@@ -54,7 +54,9 @@ setxkbmap -option ctrl:nocaps
 
 ## Compton
 ## NOTE: composition must be started before tint2
-compton -b -c &
+compton -b --config ~/.config/compton.conf &
+
+plank &
 
 ## Set a wallpaper
 #(sleep 5;nitrogen --restore) &
@@ -67,15 +69,6 @@ nitrogen --set-zoom-fill --head=1 /usr/share/backgrounds/Wall4.png
 
 #only for single monitors
 #nitrogen --set-zoom-fill /usr/share/backgrounds/Wall4.png
-
-## GNOME PolicyKit authentication
-#on virtualbox
-#/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
-#on ssd
-#unable to determine what session you are in warning
-#/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
-
-#/usr/lib/polkit-1/polkit-agent-helper-1
 
 
 ## Start the tint2 session (the default tint2 will run if no sessions have been set)
@@ -116,4 +109,6 @@ clipit &
 ## al-fortune - have the system come up with a little adage (not yet enabled)
 #(sleep 120; al-fortune) &
 
-plank &
+
+## GNOME PolicyKit authentication
+/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
