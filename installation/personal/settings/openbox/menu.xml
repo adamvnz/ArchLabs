@@ -70,7 +70,7 @@
 		</item>
 		<item label="Nemo">
 			<action name="Execute">
-				<execute>Nemo</execute>
+				<execute>nemo</execute>
 			</action>
 		</item>
 		<item label="Text Editor">
@@ -313,6 +313,11 @@
 			<item label="Keyboard Shortcuts">
 				<action name="Execute">
 					<execute>obkey</execute>
+				</action>
+			</item>
+			<item label="Aureola Conky">
+				<action name="Execute">
+					<execute>subl3 ~/.config/conky/conky.conf</execute>
 				</action>
 			</item>
 			<menu id="obConfig" label="Openbox">

@@ -75,7 +75,7 @@ nitrogen --set-zoom-fill --head=1 /usr/share/backgrounds/Wall4.png
 #unable to determine what session you are in warning
 #/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 
-/usr/lib/polkit-1/polkit-agent-helper-1
+#/usr/lib/polkit-1/polkit-agent-helper-1
 
 
 ## Start the tint2 session (the default tint2 will run if no sessions have been set)
