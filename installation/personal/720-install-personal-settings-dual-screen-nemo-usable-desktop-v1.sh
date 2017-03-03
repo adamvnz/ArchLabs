@@ -11,12 +11,10 @@ set -e
 #
 ##################################################################################################################
 
-echo "nemo is standard set that you can not make folder and documents on screen 2"
+
 
 cd settings/nemo
 sh nemo-activate-dual-screen.sh
 
-echo "################################################################"
-echo "#########       keyboard shortcuts set          ################"
-echo "################################################################"
+
 
