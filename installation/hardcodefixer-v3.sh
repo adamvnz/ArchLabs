@@ -15,6 +15,14 @@ sudo pacman -S --needed --noconfirm xdg-user-dirs
 
 # if there is already a folder, delete or else do nothing
 
+echo "#################################################"
+echo "####        Hardcode fixer                  #####"
+echo "#### For all those icons that never change  #####"
+echo "#### regardless of the icon theme we change #####"
+echo "#################################################"
+echo
+echo
+echo "#################################################"
 echo "The script will install itself in the /tmp/hardcode-fixer folder"
 echo "It will run from there"
 echo "Upon next boot the tmp folder will be empty again"
