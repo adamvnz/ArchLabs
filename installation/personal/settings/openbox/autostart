@@ -83,6 +83,7 @@ al-start-pulseaudio-x11
 
 ## Volume control for systray
 #(sleep 5; volumeicon) &
+amixer -D pulse sset Master '30%'
 pasystray &
 
 ## Start the Conky session (the default conkyrc will run if no sessions have been set)
