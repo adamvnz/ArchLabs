@@ -12,7 +12,7 @@ set -e
 ##################################################################################################################
 
 echo "################################################################"
-echo "#########   distro specific software installed  ################"
+echo "####        distro specific software will be installed      ####"
 echo "################################################################"
 
 
@@ -63,6 +63,20 @@ else
 			  	
 	fi
 
+	# Just checking if installation was successful
+	if pacman -Qi $package &> /dev/null; then
+	
+	echo "################################################################"
+	echo "#########  "$package" has been installed"
+	echo "################################################################"
+
+	else
+
+	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+	echo "!!!!!!!!!  "$package" has NOT been installed"
+	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+
+	fi
 
 fi
 
@@ -104,6 +118,20 @@ else
 			  	
 	fi
 
+	# Just checking if installation was successful
+	if pacman -Qi $package &> /dev/null; then
+	
+	echo "################################################################"
+	echo "#########  "$package" has been installed"
+	echo "################################################################"
+
+	else
+
+	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+	echo "!!!!!!!!!  "$package" has NOT been installed"
+	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+
+	fi
 
 fi
 
@@ -147,6 +175,20 @@ else
 			  	
 	fi
 
+	# Just checking if installation was successful
+	if pacman -Qi $package &> /dev/null; then
+	
+	echo "################################################################"
+	echo "#########  "$package" has been installed"
+	echo "################################################################"
+
+	else
+
+	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+	echo "!!!!!!!!!  "$package" has NOT been installed"
+	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+
+	fi
 
 fi
 
@@ -163,9 +205,9 @@ fi
 
 # package="ob-autostart"
 
-# #----------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------
 
-# #checking if application is already installed or else install with aur helpers
+#checking if application is already installed or else install with aur helpers
 # if pacman -Qi $package &> /dev/null; then
 
 # 	echo "################################################################"
@@ -192,6 +234,20 @@ fi
 			  	
 # 	fi
 
+# 	# Just checking if installation was successful
+# 	if pacman -Qi $package &> /dev/null; then
+	
+# 	echo "################################################################"
+# 	echo "#########  "$package" has been installed"
+# 	echo "################################################################"
+
+# 	else
+
+# 	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+# 	echo "!!!!!!!!!  "$package" has NOT been installed"
+# 	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+
+# 	fi
 
 # fi
 
@@ -232,6 +288,20 @@ else
 			  	
 	fi
 
+	# Just checking if installation was successful
+	if pacman -Qi $package &> /dev/null; then
+	
+	echo "################################################################"
+	echo "#########  "$package" has been installed"
+	echo "################################################################"
+
+	else
+
+	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+	echo "!!!!!!!!!  "$package" has NOT been installed"
+	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+
+	fi
 
 fi
 
@@ -273,6 +343,20 @@ else
 			  	
 	fi
 
+	# Just checking if installation was successful
+	if pacman -Qi $package &> /dev/null; then
+	
+	echo "################################################################"
+	echo "#########  "$package" has been installed"
+	echo "################################################################"
+
+	else
+
+	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+	echo "!!!!!!!!!  "$package" has NOT been installed"
+	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+
+	fi
 
 fi
 
@@ -316,6 +400,20 @@ else
 			  	
 	fi
 
+	# Just checking if installation was successful
+	if pacman -Qi $package &> /dev/null; then
+	
+	echo "################################################################"
+	echo "#########  "$package" has been installed"
+	echo "################################################################"
+
+	else
+
+	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+	echo "!!!!!!!!!  "$package" has NOT been installed"
+	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+
+	fi
 
 fi
 
@@ -358,6 +456,20 @@ else
 			  	
 	fi
 
+	# Just checking if installation was successful
+	if pacman -Qi $package &> /dev/null; then
+	
+	echo "################################################################"
+	echo "#########  "$package" has been installed"
+	echo "################################################################"
+
+	else
+
+	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+	echo "!!!!!!!!!  "$package" has NOT been installed"
+	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+
+	fi
 
 fi
 
@@ -398,6 +510,20 @@ else
 			  	
 	fi
 
+	# Just checking if installation was successful
+	if pacman -Qi $package &> /dev/null; then
+	
+	echo "################################################################"
+	echo "#########  "$package" has been installed"
+	echo "################################################################"
+
+	else
+
+	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+	echo "!!!!!!!!!  "$package" has NOT been installed"
+	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+
+	fi
 
 fi
 
@@ -441,6 +567,20 @@ else
 			  	
 	fi
 
+	# Just checking if installation was successful
+	if pacman -Qi $package &> /dev/null; then
+	
+	echo "################################################################"
+	echo "#########  "$package" has been installed"
+	echo "################################################################"
+
+	else
+
+	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+	echo "!!!!!!!!!  "$package" has NOT been installed"
+	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+
+	fi
 
 fi
 
@@ -483,6 +623,20 @@ else
 			  	
 	fi
 
+	# Just checking if installation was successful
+	if pacman -Qi $package &> /dev/null; then
+	
+	echo "################################################################"
+	echo "#########  "$package" has been installed"
+	echo "################################################################"
+
+	else
+
+	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+	echo "!!!!!!!!!  "$package" has NOT been installed"
+	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+
+	fi
 
 fi
 
@@ -495,9 +649,9 @@ fi
 
 # package="xfce4-panel"
 
-# #----------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------
 
-# #checking if application is already installed or else install with aur helpers
+#checking if application is already installed or else install with aur helpers
 # if pacman -Qi $package &> /dev/null; then
 
 # 	echo "################################################################"
@@ -524,6 +678,20 @@ fi
 			  	
 # 	fi
 
+# 	# Just checking if installation was successful
+# 	if pacman -Qi $package &> /dev/null; then
+	
+# 	echo "################################################################"
+# 	echo "#########  "$package" has been installed"
+# 	echo "################################################################"
+
+# 	else
+
+# 	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+# 	echo "!!!!!!!!!  "$package" has NOT been installed"
+# 	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+
+# 	fi
 
 # fi
 
@@ -565,6 +733,20 @@ else
 			  	
 	fi
 
+	# Just checking if installation was successful
+	if pacman -Qi $package &> /dev/null; then
+	
+	echo "################################################################"
+	echo "#########  "$package" has been installed"
+	echo "################################################################"
+
+	else
+
+	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+	echo "!!!!!!!!!  "$package" has NOT been installed"
+	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+
+	fi
 
 fi
 
@@ -606,9 +788,22 @@ else
 			  	
 	fi
 
+	# Just checking if installation was successful
+	if pacman -Qi $package &> /dev/null; then
+	
+	echo "################################################################"
+	echo "#########  "$package" has been installed"
+	echo "################################################################"
+
+	else
+
+	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+	echo "!!!!!!!!!  "$package" has NOT been installed"
+	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+
+	fi
 
 fi
-
 
 echo "################################################################"
 echo "lxinput"
@@ -646,6 +841,20 @@ else
 			  	
 	fi
 
+	# Just checking if installation was successful
+	if pacman -Qi $package &> /dev/null; then
+	
+	echo "################################################################"
+	echo "#########  "$package" has been installed"
+	echo "################################################################"
+
+	else
+
+	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+	echo "!!!!!!!!!  "$package" has NOT been installed"
+	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+
+	fi
 
 fi
 
@@ -687,6 +896,20 @@ else
 			  	
 	fi
 
+	# Just checking if installation was successful
+	if pacman -Qi $package &> /dev/null; then
+	
+	echo "################################################################"
+	echo "#########  "$package" has been installed"
+	echo "################################################################"
+
+	else
+
+	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+	echo "!!!!!!!!!  "$package" has NOT been installed"
+	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+
+	fi
 
 fi
 
@@ -728,6 +951,20 @@ else
 			  	
 	fi
 
+	# Just checking if installation was successful
+	if pacman -Qi $package &> /dev/null; then
+	
+	echo "################################################################"
+	echo "#########  "$package" has been installed"
+	echo "################################################################"
+
+	else
+
+	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+	echo "!!!!!!!!!  "$package" has NOT been installed"
+	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+
+	fi
 
 fi
 
@@ -739,8 +976,6 @@ echo "################################################################"
 echo "tint2"
 echo "################################################################"
 
-
-package="tint2"
 
 #----------------------------------------------------------------------------------
 
@@ -771,6 +1006,20 @@ else
 			  	
 	fi
 
+	# Just checking if installation was successful
+	if pacman -Qi $package &> /dev/null; then
+	
+	echo "################################################################"
+	echo "#########  "$package" has been installed"
+	echo "################################################################"
+
+	else
+
+	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+	echo "!!!!!!!!!  "$package" has NOT been installed"
+	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+
+	fi
 
 fi
 

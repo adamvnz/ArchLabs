@@ -115,6 +115,7 @@ sh hardcodefixer-v3.sh
 
 
 echo "################################################################"
-echo "###################   extra software installed  ################"
+echo "####    all selected extra software  has been installed     ####"
 echo "################################################################"
-
+echo
+echo

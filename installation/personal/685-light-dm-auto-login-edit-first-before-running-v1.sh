@@ -10,16 +10,19 @@ set -e
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
 #
 ##################################################################################################################
+#see arch wiki lightdm autologin
 
+echo "Autologin for user ??? - change username "
 
-echo "oblogout changing icon theme from foom to oxygen "
+sudo sed -i 's/#autologin-user=/autologin-user=erik/g' /etc/lightdm/lightdm.conf
+sudo sed -i 's/#autologin-session=/autologin-session=openbox/g' /etc/lightdm/lightdm.conf
 
-# changing the theme to random so you can enjoy tons of themes.
+sudo groupadd -r autologin
 
-sudo sed -i 's/buttontheme = Numix/buttontheme = sardi-oblogout/g' /etc/oblogout.conf
-
+# erik is my login
+sudo gpasswd -a erik autologin
 
 echo "################################################################"
-echo "#########     oblogout.conf has been changed    ################"
+echo "#########       ligthtdm automatic login enabled      ##########"
 echo "################################################################"
 

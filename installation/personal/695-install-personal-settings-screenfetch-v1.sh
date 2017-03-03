@@ -20,6 +20,6 @@ cp -r settings/neofetch/ ~/.config/
 
 
 echo "################################################################"
-echo "#########               screenfetch settings have been copied        ################"
+echo "#######       screenfetch settings have been copied       ######"
 echo "################################################################"
 
