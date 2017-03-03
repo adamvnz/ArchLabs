@@ -66,6 +66,15 @@ tint2 &
 #(sleep 5;nitrogen --restore) &
 #variety will take care of that
 
+#just for initial start
+#only for dual monitors
+nitrogen --set-zoom-fill --head=0 /usr/share/backgrounds/Wall4.png
+nitrogen --set-zoom-fill --head=1 /usr/share/backgrounds/Wall4.png
+
+#only for single monitors
+#nitrogen --set-zoom-fill /usr/share/backgrounds/Wall4.png
+
+
 ## Start PulseAudio
 ## (This replaces /etc/xdg/autostart/pulseaudio.desktop
 ## which is disabled by ~/.config/autostart/pulseaudio.desktop.)
