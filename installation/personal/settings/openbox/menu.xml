@@ -31,6 +31,13 @@
 		</item>
 	</menu>
 	<menu id="root-menu" label="Openbox 3">
+		<item label="Terminal">
+			<action name="Execute">
+				<command>
+                    termite
+                </command>
+			</action>
+		</item>
 		<item label="Run Program">
 			<action name="Execute">
 				<command>
@@ -44,16 +51,16 @@
 			</action>
 		</item>
 		<separator/>
-		<item label="Terminal">
-			<action name="Execute">
-				<command>
-                    termite
-                </command>
-			</action>
-		</item>
 		<item label="Firefox">
 			<action name="Execute">
 				<execute>firefox</execute>
+			</action>
+		</item>
+		<item label="Thunar">
+			<action name="Execute">
+				<command>
+                    thunar
+                </command>
 			</action>
 		</item>
 		<item label="Sublime Text">
@@ -61,11 +68,9 @@
 				<execute>subl3</execute>
 			</action>
 		</item>
-		<item label="File Manager">
+		<item label="Nemo">
 			<action name="Execute">
-				<command>
-                    thunar
-                </command>
+				<execute>Nemo</execute>
 			</action>
 		</item>
 		<item label="Text Editor">
@@ -633,13 +638,6 @@
 			<action name="Execute">
 				<command>
                    slimlock
-                </command>
-			</action>
-		</item>
-		<item label="Exit">
-			<action name="Execute">
-				<command>
-                    al-exit
                 </command>
 			</action>
 		</item>

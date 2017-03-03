@@ -251,7 +251,7 @@
         <height>50%</height>
       </action>
     </keybind>
-        <keybind key="W-Right">
+    <keybind key="W-Right">
       <action name="UnmaximizeFull"/>
       <action name="MaximizeVert"/>
       <action name="MoveResizeTo">
@@ -478,6 +478,8 @@
       <action name="Execute">
         <command>gnome-terminal</command>
       </action>
+      <action name="Focus"/>
+      <action name="SendToBottomLayer"/>
     </keybind>
     <keybind key="C-A-Right">
       <action name="GoToDesktop"/>
