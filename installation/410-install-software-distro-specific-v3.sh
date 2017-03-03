@@ -1032,8 +1032,8 @@ echo "vivaldi"
 echo "################################################################"
 
 
-package="vivaldi-stable"
-
+package="vivaldi"
+command="vivaldi-stable"
 #----------------------------------------------------------------------------------
 
 #checking if application is already installed or else install with aur helpers
