@@ -17,4 +17,3 @@ cd settings/nemo
 sh nemo-activate-dual-screen.sh
 
 
-
