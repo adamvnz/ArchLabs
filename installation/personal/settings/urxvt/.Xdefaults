@@ -40,13 +40,13 @@ URxvt*color15: #eeeeec
 ! fonts
 !URxvt*letterSpace: 	    -2
 !Xft.size:		12
-URxvt*font:                 		xft:Noto Mono:regular:size=13
-URxvt*imFont:               	xft:Noto Mono:regular:size=13
-URxvt*boldFont:             	xft:Noto Mono:bold:size=13
-URxvt*italicFont:           	xft:Noto Mono:italic:size=13
-URxvt*boldItalicFont:     xft:Noto Mono:regular:size=13
-!URxvt*font:             			xft:Droid Sans Mono Dotted for Powerline:size=9:regular
-!URxvt*boldFont:         	xft:Droid Sans Mono Dotted for Powerline:size=9:bold
+URxvt*font:                 	xft:Noto Mono:regular:size=15
+URxvt*imFont:               	xft:Noto Mono:regular:size=15
+URxvt*boldFont:             	xft:Noto Mono:bold:size=15
+URxvt*italicFont:           	xft:Noto Mono:italic:size=15
+URxvt*boldItalicFont:     		xft:Noto Mono:regular:size=15
+!URxvt*font:             		xft:Droid Sans Mono Dotted for Powerline:size=9:regular
+!URxvt*boldFont:         		xft:Droid Sans Mono Dotted for Powerline:size=9:bold
 !URxvt*itallicFont:      		xft:Droid Sans Mono Dotted for Powerline:size=9:itallic
 ! run :.!fc-list | grep <font-name>
 
