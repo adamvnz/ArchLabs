@@ -15,7 +15,7 @@ set -e
 echo "copying xfce4 and thunar settings important for themes and fonts and icons"
 
 
-cp -r settings/xfce4/ ~/.config/
+sudo cp settings/arc-dark-openbox/themerc /usr/share/themes/Arc-Dark/openbox-3/
 
 
 
