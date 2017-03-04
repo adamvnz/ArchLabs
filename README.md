@@ -38,6 +38,19 @@ Xfce4-slimlock in action
 
 ![Screenshots](http://i.imgur.com/py2QQbJ.jpg)
 
+or make your own with a wallpaper
+
+![Screenshots](http://i.imgur.com/bcuS3ep.jpg)
+
+
+# Oblogout 
+
+I made a Sardi-oblogout theme. A personalized way to exit or logout, ... of your system.
+
+![Screenshots](http://i.imgur.com/nK0P9Zl.jpg)
+
+
+
 ##Software installation
 
 We start the installation scripts of all the needed software via the terminal.
