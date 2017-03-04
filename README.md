@@ -4,7 +4,14 @@
 
 All information about the installation and customization of ArchLabs can be found in this **article** and is explained in **several youtube tutorials** : 
 
-http://erikdubois.be/how-to-install-archlabs-and-customize-it/ 
+ To be written on a later date : http://erikdubois.be/how-to-install-archlabs-and-customize-it/ 
+
+ ArchLabs is still quite recent. We will wait for an official release after some iterations. 
+ 
+ In the meantime you can follow us on 
+
+ https://plus.google.com/communities/101475477052908495908
+
 
 # ArchLabs installation
 
