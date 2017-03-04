@@ -74,7 +74,7 @@ But is does not have to be. You have the openbox menu with right mouse click, ti
 
 This is an adapated version of the Arc Openbox theme
 
-![Screenshots](http://i.imgur.com/83bnxb0.jpgà
+![Screenshots](http://i.imgur.com/83bnxb0.jpg)
 
 
 ##Software installation
