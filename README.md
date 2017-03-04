@@ -58,9 +58,24 @@ I made a Sardi-oblogout theme. A personalized way to exit or logout, ... of your
 # Obmenu generator
 
 You can make menu's manually but also automatically. 
-You create a template and will create a menu on the spot with or without images.
+You create a template and obmenu generator will create a menu on the spot with or without images.
 
 ![Screenshots](http://i.imgur.com/XjcVhGb.jpg)
+
+
+# openbox is a keyboard drive system
+
+But is does not have to be. You have the openbox menu with right mouse click, tint2 or the plank. Or install xfce4-panels.
+
+![Screenshots](http://i.imgur.com/sjLhKDG.jpg)
+
+
+# Arc theme themed
+
+This is an adapated version of the Arc Openbox theme
+
+![Screenshots](http://i.imgur.com/83bnxb0.jpgà
+
 
 ##Software installation
 
