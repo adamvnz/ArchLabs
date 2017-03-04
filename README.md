@@ -65,7 +65,7 @@ You create a template and obmenu generator will create a menu on the spot with o
 ![Screenshots](http://i.imgur.com/XjcVhGb.jpg)
 
 
-# openbox is a keyboard drive system
+# Openbox can be a keyboard drive system
 
 But is does not have to be. You have the openbox menu with right mouse click, tint2 or the plank. Or install xfce4-panels.
 
