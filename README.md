@@ -80,7 +80,7 @@ This is an adapated version of the Arc Openbox theme
 
 # Terminals
 
-Many terminals are already present and many more can be downloaded and tweaked - only if you want
+Many terminals are already present and many more can be downloaded and tweaked - only if you want to.
 
 ![Screenshots](http://i.imgur.com/I1gLgGi.jpg)
 
