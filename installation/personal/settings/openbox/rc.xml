@@ -584,6 +584,11 @@
     <keybind key="W-f">
       <action name="ToggleMaximizeFull"/>
     </keybind>
+    <keybind key="W-s">
+      <action name="Execute">
+        <command>mintstick -m iso</command>
+      </action>
+    </keybind>
     <keybind key="W-t">
       <action name="Execute">
         <command>termite</command>
