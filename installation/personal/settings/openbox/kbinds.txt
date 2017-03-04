@@ -2,101 +2,102 @@
 -------------------------------
 
  0	W-KP_7          	UnmaximizeFull
- 1	W-KP_9          	UnmaximizeFull
- 2	W-KP_3          	UnmaximizeFull
- 3	W-KP_1          	UnmaximizeFull
- 4	W-KP_5          	MaximizeFull
- 5	W-KP_4          	UnmaximizeFull
- 6	W-KP_6          	UnmaximizeFull
- 7	W-KP_8          	UnmaximizeFull
- 8	W-KP_2          	UnmaximizeFull
- 9	W-Right         	UnmaximizeFull
-10	W-Left          	UnmaximizeFull
-11	W-Up            	MaximizeFull
-12	W-Down          	UnmaximizeFull
-13	XF86AudioRaiseVolume	amixer -D pulse sset Master '5%+'
-14	XF86AudioLowerVolume	amixer -D pulse sset Master '5%-'
-15	XF86AudioMute   	amixer -D pulse set Master toggle
-16	XF86AudioNext   	playerctl next
-17	XF86AudioPlay   	playerctl play-pause
-18	XF86AudioPrev   	playerctl previous
-19	XF86AudioStop   	playerctl stop
-20	C-A-Left        	GoToDesktop
-21	A-t             	variety -t
-22	A-f             	variety -f
-23	A-p             	variety -p
-24	A-Left          	variety -p
-25	A-n             	variety -n
-26	A-Right         	variety -n
-27	A-Down          	variety --resume
-28	A-Up            	variety --pause
-29	W-Pause         	oblogout
-30	C-A-k           	obkey
-31	W-F6            	vlc
-32	W-F8            	nemo
-33	W-F9            	evolution
-34	W-F10           	spotify
-35	S-W-q           	Close
-36	C-S-Escape      	gnome-system-monitor
-37	W-F5            	meld
-38	W-F4            	gimp
-39	W-F3            	inkscape
-40	W-F2            	subl3
-41	W-F1            	firefox
-42	C-A-V           	vivaldi-stable
-43	C-A-B           	nemo
-44	C-A-W           	subl3
-45	C-A-S           	spotify
-46	C-A-C           	catfish
-47	C-A-F           	firefox
-48	W-Return        	gnome-terminal
-49	S-W-Return      	nemo
-50	C-A-N           	nemo --quit
-51	W-d             	dmenu_run -i -nb '#151617' -nf '#d8d8d8' -sb '#d8d8d8' -sf '#151617' -fn 'N.....
-52	C-A-T           	gnome-terminal
-53	C-A-Right       	GoToDesktop
-54	C-A-Up          	GoToDesktop
-55	C-A-Down        	GoToDesktop
-56	S-A-Left        	SendToDesktop
-57	S-A-Right       	SendToDesktop
-58	S-A-Up          	SendToDesktop
-59	S-A-Down        	SendToDesktop
-60	W-b             	ToggleDecorations
-61	A-F4            	Close
-62	A-F5            	Iconify
-63	A-F6            	ToggleMaximize
-64	A-Escape        	Lower
-65	A-space         	client-menu
-66	Print           	xfce4-screenshooter
-67	A-Print         	scrot '%Y-%m-%d--%s_$wx$h_scrot.png' -e 'mv $f ~/Pictures/screenshots/ ; bl.....
-68	C-Print         	gnome-screenshot -i
-69	A-Tab           	NextWindow
-70	A-S-Tab         	PreviousWindow
-71	C-A-Tab         	NextWindow
-72	W-S-Right       	DirectionalCycleWindows
-73	W-S-Left        	DirectionalCycleWindows
-74	W-S-Up          	DirectionalCycleWindows
-75	W-S-Down        	DirectionalCycleWindows
-76	A-F2            	gmrun
-77	A-F3            	dmenu_run -i -nb '#151617' -nf '#d8d8d8' -sb '#d8d8d8' -sf '#151617' -fn 'N.....
-78	W-f             	ToggleMaximizeFull
-79	W-t             	termite
-80	W-w             	chromium
-81	W-l             	slimlock
-82	W-e             	geany
-83	W-m             	audacious
-84	W-h             	urxvt -T 'htop task manager' -e htop
-85	W-v             	pavucontrol
-86	W-x             	oblogout
-87	W-Escape        	xkill
-88	W-Tab           	client-list-combined-menu
-89	W-space         	root-menu
-90	A-C-q           	root-menu
-91	W-Right         	GrowToEdgeEast
-92	W-Left          	GrowToEdgeWest
-93	W-Down          	GrowToEdgeSouth
-94	W-Up            	GrowToEdgeNorth
-95	W-A-Left        	UnmaximizeFull
-96	W-A-Right       	UnmaximizeFull
-97	A-r             	Resize
-98	A-m             	Move
+ 1	C-A-m           	xfce4-settings-manager
+ 2	W-KP_9          	UnmaximizeFull
+ 3	W-KP_3          	UnmaximizeFull
+ 4	W-KP_1          	UnmaximizeFull
+ 5	W-KP_5          	MaximizeFull
+ 6	W-KP_4          	UnmaximizeFull
+ 7	W-KP_6          	UnmaximizeFull
+ 8	W-KP_8          	UnmaximizeFull
+ 9	W-KP_2          	UnmaximizeFull
+10	W-Right         	UnmaximizeFull
+11	W-Left          	UnmaximizeFull
+12	W-Up            	MaximizeFull
+13	W-Down          	UnmaximizeFull
+14	XF86AudioRaiseVolume	amixer -D pulse sset Master '5%+'
+15	XF86AudioLowerVolume	amixer -D pulse sset Master '5%-'
+16	XF86AudioMute   	amixer -D pulse set Master toggle
+17	XF86AudioNext   	playerctl next
+18	XF86AudioPlay   	playerctl play-pause
+19	XF86AudioPrev   	playerctl previous
+20	XF86AudioStop   	playerctl stop
+21	C-A-Left        	DesktopLeft
+22	A-t             	variety -t
+23	A-f             	variety -f
+24	A-p             	variety -p
+25	A-Left          	variety -p
+26	A-n             	variety -n
+27	A-Right         	variety -n
+28	A-Down          	variety --resume
+29	A-Up            	variety --pause
+30	W-Pause         	oblogout
+31	C-A-k           	obkey
+32	W-F6            	vlc
+33	W-F8            	nemo
+34	W-F9            	evolution
+35	W-F10           	spotify
+36	S-W-q           	Close
+37	C-S-Escape      	gnome-system-monitor
+38	W-F5            	meld
+39	W-F4            	gimp
+40	W-F3            	inkscape
+41	W-F2            	subl3
+42	W-F1            	firefox
+43	C-A-V           	vivaldi-stable
+44	C-A-B           	nemo
+45	C-A-W           	subl3
+46	C-A-S           	spotify
+47	C-A-C           	catfish
+48	C-A-F           	firefox
+49	W-Return        	gnome-terminal
+50	S-W-Return      	nemo
+51	C-A-N           	nemo --quit
+52	W-d             	dmenu_run -i -nb '#151617' -nf '#d8d8d8' -sb '#d8d8d8' -sf '#151617' -fn 'N.....
+53	C-A-T           	gnome-terminal
+54	C-A-Right       	DesktopRight
+55	C-A-Up          	GoToDesktop
+56	C-A-Down        	GoToDesktop
+57	S-A-Left        	SendToDesktop
+58	S-A-Right       	SendToDesktop
+59	S-A-Up          	SendToDesktop
+60	S-A-Down        	SendToDesktop
+61	W-b             	ToggleDecorations
+62	A-F4            	Close
+63	A-F5            	Iconify
+64	A-F6            	ToggleMaximize
+65	A-Escape        	Lower
+66	A-space         	client-menu
+67	Print           	xfce4-screenshooter
+68	A-Print         	scrot '%Y-%m-%d--%s_$wx$h_scrot.png' -e 'mv $f ~/Pictures/screenshots/ ; bl.....
+69	C-Print         	gnome-screenshot -i
+70	A-Tab           	NextWindow
+71	A-S-Tab         	PreviousWindow
+72	C-A-Tab         	NextWindow
+73	W-S-Right       	DirectionalCycleWindows
+74	W-S-Left        	DirectionalCycleWindows
+75	W-S-Up          	DirectionalCycleWindows
+76	W-S-Down        	DirectionalCycleWindows
+77	A-F2            	gmrun
+78	A-F3            	dmenu_run -i -nb '#151617' -nf '#d8d8d8' -sb '#d8d8d8' -sf '#151617' -fn 'N.....
+79	W-f             	ToggleMaximizeFull
+80	W-t             	termite
+81	W-w             	chromium
+82	W-l             	slimlock
+83	W-e             	geany
+84	W-m             	audacious
+85	W-h             	urxvt -T 'htop task manager' -e htop
+86	W-v             	pavucontrol
+87	W-x             	oblogout
+88	W-Escape        	xkill
+89	W-Tab           	client-list-combined-menu
+90	W-space         	root-menu
+91	A-C-q           	root-menu
+92	W-Right         	GrowToEdgeEast
+93	W-Left          	GrowToEdgeWest
+94	W-Down          	GrowToEdgeSouth
+95	W-Up            	GrowToEdgeNorth
+96	W-A-Left        	UnmaximizeFull
+97	W-A-Right       	UnmaximizeFull
+98	A-r             	Resize
+99	A-m             	Move
