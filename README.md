@@ -78,6 +78,12 @@ This is an adapated version of the Arc Openbox theme
 
 ![Screenshots](http://i.imgur.com/83bnxb0.jpg)
 
+# Terminals
+
+Many terminals are already present and many more can be downloaded and tweaked - only if you want
+
+![Screenshots](http://i.imgur.com/I1gLgGi.jpg)
+
 
 ##Software installation
 
