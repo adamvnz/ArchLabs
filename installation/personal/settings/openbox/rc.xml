@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <openbox_config xmlns="http://openbox.org/3.4/rc" xmlns:xi="http://www.w3.org/2001/XInclude">
   <resistance>
     <strength>10</strength>
@@ -176,26 +175,26 @@
   </dock>
   <keyboard>
     <chainQuitKey>C-g</chainQuitKey>
-    <keybind key="W-KP_7">
-      <action name="UnmaximizeFull"/>
-      <action name="MoveResizeTo">
-        <x>0</x>
-        <y>0</y>
-        <width>50%</width>
-        <height>50%</height>
-      </action>
-    </keybind>
     <keybind key="C-A-m">
       <action name="Execute">
         <command>xfce4-settings-manager</command>
       </action>
     </keybind>
-    <keybind key="W-KP_9">
+    <keybind key="W-KP_1">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
-        <x>-0</x>
-        <y>0</y>
+        <x>0</x>
+        <y>-0</y>
         <width>50%</width>
+        <height>50%</height>
+      </action>
+    </keybind>
+    <keybind key="W-KP_2">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>0</x>
+        <y>-0</y>
+        <width>100%</width>
         <height>50%</height>
       </action>
     </keybind>
@@ -208,18 +207,6 @@
         <height>50%</height>
       </action>
     </keybind>
-    <keybind key="W-KP_1">
-      <action name="UnmaximizeFull"/>
-      <action name="MoveResizeTo">
-        <x>0</x>
-        <y>-0</y>
-        <width>50%</width>
-        <height>50%</height>
-      </action>
-    </keybind>
-    <keybind key="W-KP_5">
-      <action name="MaximizeFull"/>
-    </keybind>
     <keybind key="W-KP_4">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
@@ -229,6 +216,9 @@
         <height>100%</height>
       </action>
     </keybind>
+    <keybind key="W-KP_5">
+      <action name="MaximizeFull"/>
+    </keybind>
     <keybind key="W-KP_6">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
@@ -236,6 +226,15 @@
         <y>0</y>
         <width>50%</width>
         <height>100%</height>
+      </action>
+    </keybind>
+    <keybind key="W-KP_7">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>0</x>
+        <y>0</y>
+        <width>50%</width>
+        <height>50%</height>
       </action>
     </keybind>
     <keybind key="W-KP_8">
@@ -247,12 +246,12 @@
         <height>50%</height>
       </action>
     </keybind>
-    <keybind key="W-KP_2">
+    <keybind key="W-KP_9">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
-        <x>0</x>
-        <y>-0</y>
-        <width>100%</width>
+        <x>-0</x>
+        <y>0</y>
+        <width>50%</width>
         <height>50%</height>
       </action>
     </keybind>
@@ -278,8 +277,8 @@
     <keybind key="W-Down">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
-        <width>65%</width>
-        <height>65%</height>
+        <width>80%</width>
+        <height>80%</height>
       </action>
       <action name="MoveToCenter"/>
     </keybind>
@@ -320,6 +319,9 @@
     </keybind>
     <keybind key="C-A-Left">
       <action name="DesktopLeft"/>
+    </keybind>
+    <keybind key="C-A-Right">
+      <action name="DesktopRight"/>
     </keybind>
     <keybind key="A-t">
       <action name="Execute">
@@ -371,9 +373,39 @@
         <command>obkey</command>
       </action>
     </keybind>
+    <keybind key="W-F1">
+      <action name="Execute">
+        <command>firefox</command>
+      </action>
+    </keybind>
+    <keybind key="W-F2">
+      <action name="Execute">
+        <command>subl3</command>
+      </action>
+    </keybind>
+    <keybind key="W-F3">
+      <action name="Execute">
+        <command>inkscape</command>
+      </action>
+    </keybind>
+    <keybind key="W-F4">
+      <action name="Execute">
+        <command>gimp</command>
+      </action>
+    </keybind>
+    <keybind key="W-F5">
+      <action name="Execute">
+        <command>meld</command>
+      </action>
+    </keybind>
     <keybind key="W-F6">
       <action name="Execute">
         <command>vlc</command>
+      </action>
+    </keybind>
+    <keybind key="W-F7">
+      <action name="Execute">
+        <command>virtualbox</command>
       </action>
     </keybind>
     <keybind key="W-F8">
@@ -397,31 +429,6 @@
     <keybind key="C-S-Escape">
       <action name="Execute">
         <command>gnome-system-monitor</command>
-      </action>
-    </keybind>
-    <keybind key="W-F5">
-      <action name="Execute">
-        <command>meld</command>
-      </action>
-    </keybind>
-    <keybind key="W-F4">
-      <action name="Execute">
-        <command>gimp</command>
-      </action>
-    </keybind>
-    <keybind key="W-F3">
-      <action name="Execute">
-        <command>inkscape</command>
-      </action>
-    </keybind>
-    <keybind key="W-F2">
-      <action name="Execute">
-        <command>subl3</command>
-      </action>
-    </keybind>
-    <keybind key="W-F1">
-      <action name="Execute">
-        <command>firefox</command>
       </action>
     </keybind>
     <keybind key="C-A-V">
@@ -479,9 +486,6 @@
         <command>gnome-terminal</command>
       </action>
     </keybind>
-    <keybind key="C-A-Right">
-      <action name="DesktopRight"/>
-    </keybind>
     <keybind key="C-A-Up">
       <action name="GoToDesktop"/>
     </keybind>
@@ -495,7 +499,7 @@
     </keybind>
     <keybind key="S-A-Right">
       <action name="SendToDesktop">
-        <desktop>1</desktop>
+        <desktop>2</desktop>
       </action>
     </keybind>
     <keybind key="S-A-Up">
@@ -505,20 +509,11 @@
     </keybind>
     <keybind key="S-A-Down">
       <action name="SendToDesktop">
-        <desktop>1</desktop>
+        <desktop>2</desktop>
       </action>
     </keybind>
     <keybind key="W-b">
       <action name="ToggleDecorations"/>
-    </keybind>
-    <keybind key="A-F4">
-      <action name="Close"/>
-    </keybind>
-    <keybind key="A-F5">
-      <action name="Iconify"/>
-    </keybind>
-    <keybind key="A-F6">
-      <action name="ToggleMaximize"/>
     </keybind>
     <keybind key="A-Escape">
       <action name="Lower"/>
@@ -529,6 +524,29 @@
       <action name="ShowMenu">
         <menu>client-menu</menu>
       </action>
+    </keybind>
+    <keybind key="A-F2">
+      <action name="Execute">
+        <command>gmrun</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+          <name>Run Program</name>
+        </startupnotify>
+      </action>
+    </keybind>
+    <keybind key="A-F3">
+      <action name="Execute">
+        <command>dmenu_run -i -nb '#151617' -nf '#d8d8d8' -sb '#d8d8d8' -sf '#151617' -fn 'NotoMonoRegular:bold:pixelsize=18'</command>
+      </action>
+    </keybind>
+    <keybind key="A-F4">
+      <action name="Close"/>
+    </keybind>
+    <keybind key="A-F5">
+      <action name="Iconify"/>
+    </keybind>
+    <keybind key="A-F6">
+      <action name="ToggleMaximize"/>
     </keybind>
     <keybind key="Print">
       <action name="Execute">
@@ -551,12 +569,6 @@
     <keybind key="A-S-Tab">
       <action name="PreviousWindow"/>
     </keybind>
-    <keybind key="C-A-Tab">
-      <action name="NextWindow">
-        <panels>yes</panels>
-        <desktop>yes</desktop>
-      </action>
-    </keybind>
     <keybind key="W-S-Right">
       <action name="DirectionalCycleWindows"/>
     </keybind>
@@ -569,35 +581,12 @@
     <keybind key="W-S-Down">
       <action name="DirectionalCycleWindows"/>
     </keybind>
-    <keybind key="A-F2">
-      <action name="Execute">
-        <command>gmrun</command>
-        <startupnotify>
-          <enabled>yes</enabled>
-          <name>Run Program</name>
-        </startupnotify>
-      </action>
-    </keybind>
-    <keybind key="A-F3">
-      <action name="Execute">
-        <command>dmenu_run -i -nb '#151617' -nf '#d8d8d8' -sb '#d8d8d8' -sf '#151617' -fn 'NotoMonoRegular:bold:pixelsize=18'</command>
-      </action>
-    </keybind>
     <keybind key="W-f">
       <action name="ToggleMaximizeFull"/>
     </keybind>
     <keybind key="W-t">
       <action name="Execute">
         <command>termite</command>
-      </action>
-    </keybind>
-    <keybind key="W-w">
-      <action name="Execute">
-        <command>chromium</command>
-        <startupnotify>
-          <enabled>yes</enabled>
-          <name>Web Browser</name>
-        </startupnotify>
       </action>
     </keybind>
     <keybind key="W-l">
@@ -623,10 +612,6 @@
     <keybind key="W-v">
       <action name="Execute">
         <command>pavucontrol</command>
-        <startupnotify>
-          <enabled>yes</enabled>
-          <name>Volume</name>
-        </startupnotify>
       </action>
     </keybind>
     <keybind key="W-x">
@@ -649,7 +634,7 @@
         <menu>root-menu</menu>
       </action>
     </keybind>
-    <keybind key="A-C-q">
+    <keybind key="A-C-a">
       <action name="ShowMenu">
         <menu>root-menu</menu>
       </action>
@@ -1070,7 +1055,7 @@
     <hideDelay>200</hideDelay>
     <!-- if a press-release lasts longer than this setting (in milliseconds), the
        menu is hidden again -->
-    <middle>no</middle>
+    <middle>yes</middle>
     <!-- center submenus vertically about the parent entry -->
     <submenuShowDelay>100</submenuShowDelay>
     <!-- time to delay before showing a submenu after hovering over the parent
@@ -1088,6 +1073,22 @@
     <!-- show the manage desktops section in the client-list-(combined-)menu -->
   </menu>
   <applications>
+	  
+	<application name="Spotify">
+		<position force="yes">
+			<desktop>2</desktop>
+			<monitor>2</monitor>
+		</position>
+		<maximized>yes</maximized>
+    </application>
+
+  <application name="oblogout">
+    <position force="yes">
+      <monitor>1</monitor>
+    </position>
+    <fullscreen>yes</fullscreen>
+  </application> 
+	  
     <!--
   # this is an example with comments through out. use these to make your
   # own rules, but without the comments of course.
