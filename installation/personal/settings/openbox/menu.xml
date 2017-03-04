@@ -147,7 +147,7 @@
 			<separator label="Screenshots"/>
 			<item label="Screenshot">
 				<action name="Execute">
-					<command>scrot '%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f ~/Screenshots/</command>
+					<command>scrot '%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f ~/Screenshots/'</command>
 				</action>
 			</item>
 			<separator/>
