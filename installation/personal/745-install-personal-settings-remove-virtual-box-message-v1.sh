@@ -15,8 +15,8 @@ set -e
 echo "remove the message about virtual box when you restart"
 echo "if you are not on virtualbox you can run this"
 
+[ -f /etc/xdg/autostart/vboxclient.desktop ] && sudo rm /etc/xdg/autostart/vboxclient.desktop
 
-sudo rm /etc/xdg/autostart/vboxclient.desktop
 
 
 
