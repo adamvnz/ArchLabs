@@ -42,10 +42,12 @@ our $SCHEMA = [
     {item => ['subl3',  			'Sublime Text',      'sublime-text']},
     {item => ['geany',  			'Geany',       	 	 'geany']},
     {item => ['nemo --quit',        'Kill Nemo',         'xkill-openbox']},
+    {item => ['slimlock', 'Lock Screen', 'log-out']},
+    {item => ['oblogout', 'Exit Openbox', 'exit']},
 
     ## Custom advanced settings
     {sep => "Settings"},
-    
+
 
     # Customize
     {begin_cat => ['Customize', 'theme']},
@@ -67,14 +69,17 @@ our $SCHEMA = [
         {sep => undef},
         {item => ['obkey',  'Keyboard Shorcuts', 'keyboard']},
         {sep => undef},
-        {item => ["$editor ~/.config/compton.conf",  'Compton config', 'compton']},              
+        {item => ["$editor ~/.config/compton.conf",  'Edit compton.config', 'compton']},
+        {pipe => ['al-compositor', 'Compton', 'compton']},
+        {sep => undef},
+        {pipe => ['al-printing-pipemenu', 'Printing', 'printer']},
     {end_cat => undef},
 
     # Openbox category
     {begin_cat => ['Openbox', 'openbox']},
         {item => ['openbox --restart',               	'Restart Openbox', 'openbox']},
         {item => ['openbox --reconfigure',               'Reconfigure Openbox', 'openbox']},
-        {item => ['obconf',  'obconf', 'theme']},
+        {item => ['obconf',  							'obconf', 			'theme']},
         {item => ["$editor ~/.config/openbox/rc.xml",    'Openbox RC',          'text-xml']},
         {item => ["$editor ~/.config/openbox/menu.xml",  'Openbox Menu',        'text-xml']},
         {item => ["$editor ~/.config/openbox/autostart",  'Openbox Autostart',        'text-xml']},
@@ -92,19 +97,19 @@ our $SCHEMA = [
         {item => ['obmenu-generator -s -i -c', 'Generate a static menu with icons', 'menu-editor']},
         {sep  => undef},
         {item => ['obmenu-generator -d', 'Refresh Icon Set', 'gtk-refresh']},
-    {end_cat => undef},  
+    {end_cat => undef},
+
+    {begin_cat => ['Usb', 'usb-creator-gtk']},
+    	{item => ["mintstick -m iso",  'Burn iso to usb', 'usb-creator-gtk']},
+    	{item => ["mintstick -m format",  'Format usb', 'usb-creator']},
+    {end_cat => undef},
 
     {begin_cat => ['Help', 'info']},
     	{pipe => ['al-kb-pipemenu', 'Keyboard Shortcuts', 'cs-keyboard']},
     	{pipe => ['al-help-pipemenu', 'Information', 'info']},
     {end_cat => undef},
-
-
-    {item => ['slimlock', 'Lock Screen', 'log-out']},
-    {item => ['oblogout', 'Exit Openbox', 'exit']},
-   
+    
     {sep => 'Applications'},
-
     #          NAME            LABEL                ICON
     {cat => ['utility',     'Accessories', 'applications-utilities']},
     {cat => ['development', 'Development', 'applications-development']},
@@ -137,5 +142,5 @@ our $SCHEMA = [
     #{sep       => undef},
     #{obgenmenu => ['Openbox Settings', 'openbox']},
     #{sep       => undef},
-    
+
 ]
