@@ -1,5 +1,5 @@
 XTerm*foreground: 		rgb:b2/b2/b2
-XTerm*background: 		rgb:64/69/82
+XTerm*background: 		rgb:40/45/52
 XTerm*color0: 			rgb:28/28/28
 xterm*faceName: 		Noto Mono:size=15
 xterm*geometry:         100x30
