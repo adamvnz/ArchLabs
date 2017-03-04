@@ -89,6 +89,16 @@
 		</item>
 		<separator/>
 		<menu id="accessories" label="Accessories">
+			<item label="Burn iso to usb">
+				<action name="Execute">
+					<command>mintstick -m iso</command>
+				</action>
+			</item>
+			<item label="Format usb">
+				<action name="Execute">
+					<command>mintstick -m format</command>
+				</action>
+			</item>
 			<item label="Catfish File Search">
 				<action name="Execute">
 					<command>catfish</command>
