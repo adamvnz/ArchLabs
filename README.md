@@ -50,6 +50,12 @@ I made a Sardi-oblogout theme. A personalized way to exit or logout, ... of your
 ![Screenshots](http://i.imgur.com/nK0P9Zl.jpg)
 
 
+# Obmenu generator
+
+You can make menu's manually but also automatically. 
+You create a template and will create a menu on the spot with or without images.
+
+![Screenshots](http://i.imgur.com/XjcVhGb.jpg)
 
 ##Software installation
 
