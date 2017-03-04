@@ -12,14 +12,14 @@ set -e
 ##################################################################################################################
 
 
-echo "copying uxrvt settings "
+echo "copying uxrvt uxterm settings "
 
 
 cp settings/urxvt/.Xdefaults ~/
-
+cp settings/xterm/.Xresources ~/
 
 
 echo "################################################################"
-echo "#########     uxrvt settings have been copied   ################"
+echo "#########     uxrvt and xterm settings have been copied   ######"
 echo "################################################################"
 
