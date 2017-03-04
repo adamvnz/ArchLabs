@@ -36,6 +36,8 @@ Let us first take a screenshot of the initial look of this distro.
 
 ![Screenshots](http://i.imgur.com/1SKTxin.jpg)
 
+![Screenshots](http://i.imgur.com/bYmdyQO.jpg)
+
 
 # Logout screen
 
