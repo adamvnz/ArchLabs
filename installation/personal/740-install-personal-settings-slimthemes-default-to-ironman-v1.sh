@@ -13,18 +13,21 @@ set -e
 
 
 echo "################################################################"
-echo "#########            lxterminal configs         ################"
+echo "#########           slimthemes                  ################"
 echo "################################################################"
 
 
 
-[ -d $HOME"/.config/lxterminal" ] || mkdir -p $HOME"/.config/lxterminal"
+[ -d /usr/share/slim ] || sudo mkdir -p /usr/share/slim
+[ -d /usr/share/slim/themes ] || sudo mkdir -p /usr/share/slim/themes
 
-cp -r settings/lxterminal/ ~/.config/
+sudo cp -r settings/slimthemes/ironman/ /usr/share/slim/themes
 
+[ -f /etc/slim.conf ] && sudo mv /etc/slim.conf /etc/slim.conf.backup
+sudo cp settings/slimthemes/slim.conf.ironman /etc/slim.conf
 
 
 echo "################################################################"
-echo "######        lxterminal configs installed      ################"
+echo "######        slimtheme       installed         ################"
 echo "################################################################"
 

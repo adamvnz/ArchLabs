@@ -12,7 +12,7 @@ set -e
 ##################################################################################################################
 
 
-echo "copying xfce4 and thunar settings important for themes and fonts and icons"
+
 
 
 sudo cp settings/arc-dark-openbox/themerc /usr/share/themes/Arc-Dark/openbox-3/
@@ -20,6 +20,6 @@ sudo cp settings/arc-dark-openbox/themerc /usr/share/themes/Arc-Dark/openbox-3/
 
 
 echo "################################################################"
-echo "#########     thunar and xfce4  settings copied   ##############"
+echo "###   personal change in the arc dark theme for openbox      ###"
 echo "################################################################"
 

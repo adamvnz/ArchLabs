@@ -20,6 +20,6 @@ sh settings/preferred-applications/set-preferred-applications-v1.sh
 
 
 echo "################################################################"
-echo "#########     thunar and xfce4  settings copied   ##############"
+echo "#########        preferred application set        ##############"
 echo "################################################################"
 

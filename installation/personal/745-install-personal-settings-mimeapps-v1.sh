@@ -13,18 +13,18 @@ set -e
 
 
 echo "################################################################"
-echo "#########            lxterminal configs         ################"
+echo "#########            mimeapps.conf              ################"
 echo "################################################################"
 
 
 
-[ -d $HOME"/.config/lxterminal" ] || mkdir -p $HOME"/.config/lxterminal"
 
-cp -r settings/lxterminal/ ~/.config/
+
+cp settings/mimeapps/mimeapps.list ~/.config/
 
 
 
 echo "################################################################"
-echo "######        lxterminal configs installed      ################"
+echo "######          mimeapps.conf installed         ################"
 echo "################################################################"
 

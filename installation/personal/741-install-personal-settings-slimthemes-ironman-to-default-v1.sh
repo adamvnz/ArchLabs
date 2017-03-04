@@ -13,7 +13,7 @@ set -e
 
 
 echo "################################################################"
-echo "#########            openbox configs            ################"
+echo "#########            slimthemes                 ################"
 echo "################################################################"
 
 
@@ -21,13 +21,12 @@ echo "################################################################"
 [ -d /usr/share/slim ] || sudo mkdir -p /usr/share/slim
 [ -d /usr/share/slim/themes ] || sudo mkdir -p /usr/share/slim/themes
 
-sudo cp -r settings/slimthemes/ironman/ /usr/share/slim/themes
 
 [ -f /etc/slim.conf ] && sudo mv /etc/slim.conf /etc/slim.conf.backup
-sudo cp settings/slimthemes/slim.conf.ironman /etc/slim.conf
+sudo cp settings/slimthemes/slim.default /etc/slim.conf
 
 
 echo "################################################################"
-echo "######        openbox configs installed         ################"
+echo "######        slimtheme       installed         ################"
 echo "################################################################"
 
