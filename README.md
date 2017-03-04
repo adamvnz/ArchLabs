@@ -156,7 +156,7 @@ More info can be found here : https://github.com/erikdubois/Surfn
 
 ##Install the Aureola conky collection
 
-Special conky colours for ArchLab created
+Special conky colours for ArchLabs created
 
 
 ![Screenshots](http://i.imgur.com/FL8PgNM.jpg)
