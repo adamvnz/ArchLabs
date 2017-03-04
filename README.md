@@ -6,7 +6,7 @@ All information about the installation and customization of ArchLabs can be foun
 
 http://erikdubois.be/how-to-install-archlabs-and-customize-it/ 
 
-# ArchLabs installation peek
+# ArchLabs installation
 
 ArchLinux installation can be difficult for linux beginners. That is where the graphical installers can assist us. ArchLabs is using such an aid to make an installation as easy as pie.
 
