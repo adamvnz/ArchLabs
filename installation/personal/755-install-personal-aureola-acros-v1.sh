@@ -13,7 +13,7 @@ set -e
 
 mv ~/.config/conky ~/.config/conky-original-archlabs
 mkdir ~/.config/conky
-cp ~/.aureola/acros/* ~/.config/conky
+cp -r ~/.aureola/acros/* ~/.config/conky
 mv ~/.config/conky/conky.conf ~/.config/conky/conky.conf.original
 mv ~/.config/conky/conky-archlabs-default.conf ~/.config/conky/conky.conf
 
@@ -23,7 +23,9 @@ fc-cache -fv ~/.fonts
 
 cp ~/.aureola/acros/start-conky.desktop ~/.config/autostart
 
-
+echo "This is just a quick fix. No software was installed"
+echo "to support applications"
+echo "Check http://erikdubois.be how to install aureola conky"
 echo "################################################################"
 echo "#########    conky will start if you reboot lateron     ########"
 echo "################################################################"
