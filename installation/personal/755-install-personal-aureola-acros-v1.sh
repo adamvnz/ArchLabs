@@ -11,8 +11,15 @@ set -e
 #
 ##################################################################################################################
 
-
+mv ~/.config/conky ~/.config/conky-original-archlabs
+mkdir ~/.config/conky
 cp ~/.aureola/acros/* ~/.config/conky
+mv ~/.config/conky/conky.conf ~/.config/conky/conky.conf.original
+mv ~/.config/conky/conky-archlabs-default.conf ~/.config/conky/conky.conf
+
+cp ~/.aureola/acros/fonts/* ~/.fonts
+
+fc-cache -fv ~/.fonts
 
 cp ~/.aureola/acros/start-conky.desktop ~/.config/autostart
 
