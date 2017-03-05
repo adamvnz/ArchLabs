@@ -15,8 +15,8 @@ set -e
 echo "copying uxrvt uxterm settings "
 
 
-cp settings/urxvt/.Xdefaults ~/
-cp settings/xterm/.Xresources ~/
+cp settings/urxvt/.Xdefaults ~
+cp settings/xterm/.Xresources ~
 
 
 echo "################################################################"

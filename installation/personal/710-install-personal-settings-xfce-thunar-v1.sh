@@ -11,6 +11,7 @@ set -e
 #
 ##################################################################################################################
 
+[ -d $HOME"/.config/xfce4/" ] || mkdir -p $HOME"/.config/xfce4/"
 
 echo "copying xfce4 and thunar settings important for themes and fonts and icons"
 
