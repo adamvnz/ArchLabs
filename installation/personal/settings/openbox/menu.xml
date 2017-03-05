@@ -411,7 +411,7 @@
                     </command>
 				</action>
 			</item>
-			<item label="Set ArchLabs wallpaper">
+			<item label="Set ArchLabs Wallpaper">
 				<action name="Execute">
 					<execute>~/.config/openbox/set-archlabs-wallpaper-dual-screen.sh</execute>
 				</action>
