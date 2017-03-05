@@ -180,6 +180,11 @@
         <command>xfce4-settings-manager</command>
       </action>
     </keybind>
+    <keybind key="C-A-BackSpace">
+      <action name="Execute">
+        <command>openbox --restart</command>
+      </action>
+    </keybind>
     <keybind key="W-KP_1">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
@@ -316,6 +321,16 @@
       <action name="Execute">
         <command>playerctl stop</command>
       </action>
+      <keybind key="XF86MonBrightnessUp">
+       <action name="Execute">
+         <command>xbacklight +10</command>
+       </action>
+     </keybind>
+     <keybind key="XF86MonBrightnessDown">
+       <action name="Execute">
+         <command>xbacklight -10</command>
+       </action>
+    </keybind>
     </keybind>
     <keybind key="C-A-Left">
       <action name="DesktopLeft"/>
@@ -524,6 +539,9 @@
       <action name="ShowMenu">
         <menu>client-menu</menu>
       </action>
+    </keybind>
+    <keybind key="A-F8">
+      <action name="ToggleDecorations"/>
     </keybind>
     <keybind key="A-F2">
       <action name="Execute">
