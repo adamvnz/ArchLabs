@@ -15,13 +15,11 @@ mv ~/.config/conky ~/.config/conky-original-archlabs
 mkdir ~/.config/conky
 cp -r ~/.aureola/acros/* ~/.config/conky
 
-mv ~/.config/conky/conky.conf ~/.config/conky/conky.conf.original
-mv ~/.config/conky/conky-archlabs-default.conf ~/.config/conky/conky.conf
-
-
-cd ~/.config/conky
+cd ~/.aureola/acros
 ./install-conky.sh
 
+mv ~/.config/conky/conky.conf ~/.config/conky/conky.conf.original
+mv ~/.config/conky/conky-archlabs-default.conf ~/.config/conky/conky.conf
 
 echo "################################################################"
 echo "This is just a quick fix. No software was installed"
