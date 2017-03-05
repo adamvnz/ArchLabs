@@ -10,9 +10,9 @@ set -e
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
 #
 ##################################################################################################################
-
-mv ~/.config/conky ~/.config/conky-original-archlabs
-mkdir ~/.config/conky
+mkdir ~/.config/conky-original-archlabs
+cp -r ~/.config/conky/* ~/.config/conky-original-archlabs
+rm -r ~/.config/conky/*
 cp -r ~/.aureola/acros/* ~/.config/conky
 
 cd ~/.aureola/acros
