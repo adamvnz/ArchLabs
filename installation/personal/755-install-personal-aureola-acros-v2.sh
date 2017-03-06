@@ -21,6 +21,10 @@ cd ~/.aureola/acros
 mv ~/.config/conky/conky.conf ~/.config/conky/conky.conf.original
 mv ~/.config/conky/conky-archlabs-default.conf ~/.config/conky/conky.conf
 
+killall conky
+
+conky -q 
+
 echo "################################################################"
 echo "This is just a quick fix. No software was installed"
 echo "to support applications"
