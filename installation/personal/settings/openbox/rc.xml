@@ -496,6 +496,11 @@
         <command>dmenu_run -i -nb '#151617' -nf '#d8d8d8' -sb '#d8d8d8' -sf '#151617' -fn 'NotoMonoRegular:bold:pixelsize=18'</command>
       </action>
     </keybind>
+    <keybind key="W-S-d">
+      <action name="Execute">
+        <command>dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#b7ce42' -fn 'NotoMonoRegular:bold:pixelsize=14'</command>
+      </action>
+    </keybind>
     <keybind key="C-A-T">
       <action name="Execute">
         <command>gnome-terminal</command>
