@@ -112,3 +112,6 @@ clipit &
 
 ## GNOME PolicyKit authentication
 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
+
+#disables energystar features and no f...ing screensaver
+xset -dpms; xset s off  &
