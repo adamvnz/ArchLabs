@@ -39,7 +39,7 @@
                     'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>ARCHLabs Bunsen Blackish GTK3</name>
+    <name>Arc-Dark</name>
     <titleLayout>DSLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -318,16 +318,19 @@
       </action>
     </keybind>
     <keybind key="XF86AudioStop">
+      <action name="Execute">
+        <command>playerctl stop</command>
+      </action>
       <keybind key="XF86MonBrightnessUp">
-        <action name="Execute">
-          <command>xbacklight +10</command>
-        </action>
-      </keybind>
-      <keybind key="XF86MonBrightnessDown">
-        <action name="Execute">
-          <command>xbacklight -10</command>
-        </action>
-      </keybind>
+       <action name="Execute">
+         <command>xbacklight +10</command>
+       </action>
+     </keybind>
+     <keybind key="XF86MonBrightnessDown">
+       <action name="Execute">
+         <command>xbacklight -10</command>
+       </action>
+    </keybind>
     </keybind>
     <keybind key="C-A-Left">
       <action name="DesktopLeft"/>
@@ -472,9 +475,6 @@
       <action name="Execute">
         <command>firefox</command>
       </action>
-    </keybind>
-    <keybind key="C-A-d">
-      <action name="ToggleShowDesktop"/>
     </keybind>
     <keybind key="W-Return">
       <action name="Execute">
@@ -1101,19 +1101,22 @@
     <!-- show the manage desktops section in the client-list-(combined-)menu -->
   </menu>
   <applications>
-    <application name="Spotify">
-      <position force="yes">
-        <desktop>2</desktop>
-        <monitor>2</monitor>
-      </position>
-      <maximized>yes</maximized>
+	  
+	<application name="Spotify">
+		<position force="yes">
+			<desktop>2</desktop>
+			<monitor>2</monitor>
+		</position>
+		<maximized>yes</maximized>
     </application>
-    <application name="oblogout">
-      <position force="yes">
-        <monitor>1</monitor>
-      </position>
-      <fullscreen>yes</fullscreen>
-    </application>
+
+  <application name="oblogout">
+    <position force="yes">
+      <monitor>1</monitor>
+    </position>
+    <fullscreen>yes</fullscreen>
+  </application> 
+	  
     <!--
   # this is an example with comments through out. use these to make your
   # own rules, but without the comments of course.
