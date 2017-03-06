@@ -498,7 +498,7 @@
     </keybind>
     <keybind key="W-S-d">
       <action name="Execute">
-        <command>dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#b7ce42' -fn 'NotoMonoRegular:bold:pixelsize=14'</command>
+        <command>dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'</command>
       </action>
     </keybind>
     <keybind key="C-A-T">
@@ -662,9 +662,9 @@
         <menu>root-menu</menu>
       </action>
     </keybind>
-    <keybind key="A-C-a">
-      <action name="ShowMenu">
-        <menu>root-menu</menu>
+    <keybind key="C-A-a">
+      <action name="Execute">
+        <command>xfce4-appfinder</command>
       </action>
     </keybind>
     <keybind key="W-Right">
