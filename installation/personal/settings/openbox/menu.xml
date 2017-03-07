@@ -308,8 +308,8 @@
 		<separator/>
 		<menu execute="/usr/bin/al-places-pipemenu" id="pipe-placesmenu" label="Places"/>
 		<menu execute="/usr/bin/al-recent-files-pipemenu" id="pipe-recentfilesmenu" label="Recent Files"/>
-		<separator/>
-		<menu id="preferences" label="Preferences">
+		<separator/>	
+		<menu id="Configure" label="Configure">
 			<item label="Aureola Conky">
 				<action name="Execute">
 					<execute>exo-open ~/.config/conky/conky.conf</execute>
@@ -372,7 +372,9 @@
 					<execute>tint2conf</execute>
 				</action>
 			</item>
-			<separator/>
+		</menu>			
+		<separator/>	
+		<menu id="preferences" label="Preferences">
 			<item label="LightDM Appearance">
 				<action name="Execute">
 					<command>
