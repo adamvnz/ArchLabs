@@ -20,6 +20,7 @@ echo "################################################################"
 
 [ -d $HOME"/.config/openbox" ] || mkdir -p $HOME"/.config/openbox"
 
+cp -r ~/.config/openbox ~/.config/openbox-original
 cp -r settings/openbox/ ~/.config/
 
 
