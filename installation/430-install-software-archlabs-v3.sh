@@ -23,7 +23,8 @@ sudo pacman -S libreoffice --needed --noconfirm
 sudo pacman -S gnumeric --needed --noconfirm
 sudo pacman -S sakura --needed --noconfirm
 
-
+#octopi is giving problems
+sh install-pamac-aur-v1.sh
 
 package="gigolo"
 

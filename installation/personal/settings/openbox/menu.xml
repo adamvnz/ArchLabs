@@ -456,10 +456,17 @@
 		</menu>
 		<menu id="system" label="System">
 			<menu execute="/usr/bin/al-printing-pipemenu" id="PrintingPipeMenu" label="Printers"/>
-			<item label="Octopi Package Manager">
+			<item label="Pamac Manager">
 				<action name="Execute">
 					<command>
-                        octopi
+                        pamac-manager
+                    </command>
+				</action>
+			</item>
+			<item label="Pamac Updater">
+				<action name="Execute">
+					<command>
+                        pamac-updater
                     </command>
 				</action>
 			</item>
