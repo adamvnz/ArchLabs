@@ -15,13 +15,16 @@ echo "################################################################"
 echo "#########          root files                   ################"
 echo "################################################################"
 
-echo "Nothing to do for now"
 
-
-#cp settings/.bashrc ~/
-#cp settings/.xinitrc ~/
-#cp settings/.zlogin ~/
-#cp settings/.zshrc ~/
+cp settings/root/.bash_profile ~/
+cp settings/root/.bashrc ~/
+#taken care in themes script
+#cp settings/root/.gtkrc-2.0 ~/
+cp settings/root/.xinitrc ~/
+cp settings/root/.xsession ~/
+cp settings/root/.zlogin ~/
+cp settings/root/.zprofile ~/
+cp settings/root/.zshrc ~/
 
 
 

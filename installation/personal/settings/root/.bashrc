@@ -5,9 +5,9 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+
+alias pacman='pacman --color=auto'
 alias ls='ls --color=auto'
-xrdb -merge ~/.Xresources
-alias pacman="pacman --color=auto"
 alias grep='grep --color=auto'
 alias merge="xrdb -merge ~/.Xresources"
 
