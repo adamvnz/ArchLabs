@@ -12,14 +12,14 @@ set -e
 ##################################################################################################################
 
 
-echo "preferred application can be set - browsers, terminal, ..."
+echo "copying screenfetch settings "
 
 
-sh settings/preferred-applications/set-preferred-applications-v1.sh
+cp -rf settings/neofetch/ ~/.config/
 
 
 
 echo "################################################################"
-echo "#########        preferred application set        ##############"
+echo "#######       screenfetch settings have been copied       ######"
 echo "################################################################"
 

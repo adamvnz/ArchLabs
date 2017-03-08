@@ -403,9 +403,9 @@
                     </command>
 				</action>
 			</item>
-			<item label="Set ArchLabs Wallpaper">
+			<item label="Set Standard Wallpaper">
 				<action name="Execute">
-					<execute>~/.config/openbox/set-archlabs-wallpaper-dual-screen.sh</execute>
+					<execute>~/.config/openbox/scripts/set-standard-wallpaper-for-dual-screen.sh</execute>
 				</action>
 			</item>
 			<separator/>
@@ -486,7 +486,13 @@
                     </command>
 				</action>
 			</item>	
-			<menu execute="/usr/bin/al-printing-pipemenu" id="PrintingPipeMenu" label="Printers"/>
+			<item label="Printer">
+				<action name="Execute">
+					<command>
+                        system-config-printer
+                    </command>
+				</action>
+			</item>				
 			<item label="Text Editor As Root">
 				<action name="Execute">
 					<command>
