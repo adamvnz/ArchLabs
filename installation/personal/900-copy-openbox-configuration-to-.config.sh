@@ -18,7 +18,7 @@ echo "################################################################"
 
 
 
-cp -r ~/.config/openbox ~/.config/openbox-original
+mv ~/.config/openbox ~/.config/openbox-original
 cp -r settings/openbox/ ~/.config/
 
 
