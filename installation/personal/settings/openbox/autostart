@@ -20,13 +20,15 @@
 ##
 
 ### SETTINGS START
-
+# only for virtualbox
 xrandr --output VGA-1 --mode 1920x1080
 
 ## Turn on/off system beep.
 xset b off
 
 numlockx on &
+
+blueberry-tray &
 
 xfsettingsd &
 
@@ -120,5 +122,3 @@ clipit &
 
 #disables energystar features and no f...ing screensaver
 xset -dpms; xset s off  &
-
-blueberry-tray &
