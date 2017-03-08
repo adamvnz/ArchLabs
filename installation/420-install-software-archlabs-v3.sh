@@ -11,29 +11,20 @@ set -e
 #
 ##################################################################################################################
 
-echo "################################################################"
-echo "####        distro specific software will be installed      ####"
-echo "################################################################"
+sudo pacman -S audacious --needed --noconfirm
+sudo pacman -S xfce4-appfinder --needed --noconfirm
+sudo pacman -S xorg-xkill --needed --noconfirm
+sudo pacman -S viewnior --needed --noconfirm
+sudo pacman -S audacity --needed --noconfirm
+sudo pacman -S xfburn --needed --noconfirm
+sudo pacman -S gtk-recordmydesktop --needed --noconfirm
+sudo pacman -S opera --needed --noconfirm
+sudo pacman -S libreoffice --needed --noconfirm
+sudo pacman -S gnumeric --needed --noconfirm
+sudo pacman -S sakura --needed --noconfirm
 
-
-
-# only in aur
-#sudo pacman -S obkey --needed --noconfirm
-sudo pacman -S compton --needed --noconfirm
-sudo pacman -S dmenu --needed --noconfirm
-sudo pacman -S feh --needed --noconfirm
-sudo pacman -S gmrun --needed --noconfirm
-sudo pacman -S gsimplecal --needed --noconfirm
-sudo pacman -S lxinput --needed --noconfirm
-sudo pacman -S lxrandr --needed --noconfirm
-sudo pacman -S nitrogen --needed --noconfirm
-sudo pacman -S notify-osd --needed --noconfirm
-sudo pacman -S numlockx --needed --noconfirm
-sudo pacman -S obconf --needed --noconfirm
-sudo pacman -S obmenu --needed --noconfirm
-sudo pacman -S oblogout --needed --noconfirm
-sudo pacman -S openbox-themes --needed --noconfirm
-sudo pacman -S tint2 --needed --noconfirm
+#octopi is giving problems
+sh install-pamac-aur-v1.sh
 
 
 
@@ -45,12 +36,69 @@ sudo pacman -S tint2 --needed --noconfirm
 
 
 
-echo "################################################################"
-echo "lxappearance-obconf"   
-echo "################################################################"
 
 
-package="lxappearance-obconf"
+
+
+package="gigolo"
+
+#----------------------------------------------------------------------------------
+
+#checking if application is already installed or else install with aur helpers
+if pacman -Qi $package &> /dev/null; then
+
+	echo "################################################################"
+	echo "################## "$package" is already installed"
+	echo "################################################################"
+
+else
+
+	#checking which helper is installed
+	if pacman -Qi packer &> /dev/null; then
+
+		echo "Installing with packer"
+		packer -S --noconfirm --noedit  $package
+
+	elif pacman -Qi pacaur &> /dev/null; then
+		
+		echo "Installing with pacaur"
+		pacaur -S --noconfirm --noedit  $package
+		 	
+	elif pacman -Qi yaourt &> /dev/null; then
+
+		echo "Installing with yaourt"
+		yaourt -S --noconfirm $package
+			  	
+	fi
+
+	# Just checking if installation was successful
+	if pacman -Qi $package &> /dev/null; then
+	
+	echo "################################################################"
+	echo "#########  "$package" has been installed"
+	echo "################################################################"
+
+	else
+
+	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+	echo "!!!!!!!!!  "$package" has NOT been installed"
+	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+
+	fi
+
+fi
+
+
+
+
+
+
+
+
+
+
+
+package="terminix"
 
 #----------------------------------------------------------------------------------
 
@@ -112,15 +160,7 @@ fi
 
 
 
-
-
-
-echo "################################################################"
-echo "obkey-git"   
-echo "################################################################"
-
-
-package="obkey-git"
+package="xfce-slimlock"
 
 #----------------------------------------------------------------------------------
 
@@ -172,208 +212,6 @@ fi
 
 
 
-
-
-
-
-
-
-
-
-
 echo "################################################################"
-echo "obmenu-generator"   
-echo "################################################################"
-
-
-package="obmenu-generator"
-
-#----------------------------------------------------------------------------------
-
-#checking if application is already installed or else install with aur helpers
-if pacman -Qi $package &> /dev/null; then
-
-	echo "################################################################"
-	echo "################## "$package" is already installed"
-	echo "################################################################"
-
-else
-
-	#checking which helper is installed
-	if pacman -Qi packer &> /dev/null; then
-
-		echo "Installing with packer"
-		packer -S --noconfirm --noedit  $package
-
-	elif pacman -Qi pacaur &> /dev/null; then
-		
-		echo "Installing with pacaur"
-		pacaur -S --noconfirm --noedit  $package
-		 	
-	elif pacman -Qi yaourt &> /dev/null; then
-
-		echo "Installing with yaourt"
-		yaourt -S --noconfirm $package
-			  	
-	fi
-
-	# Just checking if installation was successful
-	if pacman -Qi $package &> /dev/null; then
-	
-	echo "################################################################"
-	echo "#########  "$package" has been installed"
-	echo "################################################################"
-
-	else
-
-	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
-	echo "!!!!!!!!!  "$package" has NOT been installed"
-	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
-
-	fi
-
-fi
-
-
-
-
-
-
-
-
-echo "################################################################"
-echo "openbox-arc-git"
-echo "################################################################"
-
-
-package="openbox-arc-git"
-
-#----------------------------------------------------------------------------------
-
-#checking if application is already installed or else install with aur helpers
-if pacman -Qi $package &> /dev/null; then
-
-	echo "################################################################"
-	echo "################## "$package" is already installed"
-	echo "################################################################"
-
-else
-
-	#checking which helper is installed
-	if pacman -Qi packer &> /dev/null; then
-
-		echo "Installing with packer"
-		packer -S --noconfirm --noedit  $package
-
-	elif pacman -Qi pacaur &> /dev/null; then
-		
-		echo "Installing with pacaur"
-		pacaur -S --noconfirm --noedit  $package
-		 	
-	elif pacman -Qi yaourt &> /dev/null; then
-
-		echo "Installing with yaourt"
-		yaourt -S --noconfirm $package
-			  	
-	fi
-
-	# Just checking if installation was successful
-	if pacman -Qi $package &> /dev/null; then
-	
-	echo "################################################################"
-	echo "#########  "$package" has been installed"
-	echo "################################################################"
-
-	else
-
-	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
-	echo "!!!!!!!!!  "$package" has NOT been installed"
-	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
-
-	fi
-
-fi
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-echo "################################################################"
-echo "playerctl"
-echo "################################################################"
-
-
-package="playerctl"
-
-#----------------------------------------------------------------------------------
-
-#checking if application is already installed or else install with aur helpers
-if pacman -Qi $package &> /dev/null; then
-
-	echo "################################################################"
-	echo "################## "$package" is already installed"
-	echo "################################################################"
-
-else
-
-	#checking which helper is installed
-	if pacman -Qi packer &> /dev/null; then
-
-		echo "Installing with packer"
-		packer -S --noconfirm --noedit  $package
-
-	elif pacman -Qi pacaur &> /dev/null; then
-		
-		echo "Installing with pacaur"
-		pacaur -S --noconfirm --noedit  $package
-		 	
-	elif pacman -Qi yaourt &> /dev/null; then
-
-		echo "Installing with yaourt"
-		yaourt -S --noconfirm $package
-			  	
-	fi
-
-	# Just checking if installation was successful
-	if pacman -Qi $package &> /dev/null; then
-	
-	echo "################################################################"
-	echo "#########  "$package" has been installed"
-	echo "################################################################"
-
-	else
-
-	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
-	echo "!!!!!!!!!  "$package" has NOT been installed"
-	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
-
-	fi
-
-fi
-
-
-
-
-
-
-
-
-
-
-
-echo "################################################################"
-echo "#########   distro specific software installed  ################"
+echo "#########                software installed     ################"
 echo "################################################################"
