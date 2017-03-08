@@ -12,14 +12,14 @@ set -e
 ##################################################################################################################
 
 
-echo "copying neofetch settings "
+echo "copying nitrogen settings "
 
 
-cp -rf settings/neofetch/ ~/.config/
+cp -rf settings/nitrogen/ ~/.config/
 
 
 
 echo "################################################################"
-echo "#######       neofetch settings have been copied       ######"
+echo "#######       nitrogen settings have been copied       ######"
 echo "################################################################"
 
