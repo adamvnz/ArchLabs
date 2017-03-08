@@ -181,7 +181,7 @@
         <command>xfce4-settings-manager</command>
       </action>
     </keybind>
-    <keybind key="C-A-BackSpace">
+    <keybind key="C-S-BackSpace">
       <action name="Execute">
         <command>openbox --restart</command>
       </action>
