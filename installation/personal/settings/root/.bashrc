@@ -9,7 +9,7 @@
 alias pacman='pacman --color=auto'
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
-alias merge="xrdb -merge ~/.Xresources"
+alias merge='xrdb -merge ~/.Xresources'
 
 man() {
     LESS_TERMCAP_md=$'\e[01;31m' \
