@@ -43,6 +43,7 @@ sudo pacman -S feh --needed --noconfirm
 sudo pacman -S gmrun --needed --noconfirm
 sudo pacman -S gsimplecal --needed --noconfirm
 sudo pacman -S lxinput --needed --noconfirm
+sudo pacman -S lxterminal --needed --noconfirm
 sudo pacman -S lxrandr --needed --noconfirm
 sudo pacman -S nitrogen --needed --noconfirm
 sudo pacman -S notify-osd --needed --noconfirm
