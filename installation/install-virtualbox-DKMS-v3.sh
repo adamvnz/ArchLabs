@@ -11,6 +11,11 @@
 #
 ##################################################################################################################
 
+sudo pacman -S --noconfirm --needed virtualbox-host-dkms
+sudo pacman -S --noconfirm --needed linux-headers
+
+virtualbox-host-dkms
+
 
 package="virtualbox"
 command="virtualbox"
@@ -113,3 +118,8 @@ fi
 # 	fi
 
 # fi
+
+
+	echo "################################################################"
+	echo "#########           You got to reboot.                 #########" 
+	echo "################################################################"
