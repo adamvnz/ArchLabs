@@ -31,6 +31,8 @@ echo "################################################################"
 [ -d $HOME"/.config/sublime-text-3/Packages" ] || mkdir -p $HOME"/.config/sublime-text-3/Packages"
 [ -d $HOME"/.config/sublime-text-3/Packages/User" ] || mkdir -p $HOME"/.config/sublime-text-3/Packages/User"
 
+[ -d $HOME"/.config/Thunar" ] || mkdir -p $HOME"/.config/Thunar"
+
 [ -d $HOME"/.fonts" ] || mkdir -p $HOME"/.fonts"
 
 [ -d $HOME"/.gimp-2.8" ] || mkdir -p $HOME"/.gimp-2.8"
