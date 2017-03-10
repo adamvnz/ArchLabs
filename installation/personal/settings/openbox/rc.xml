@@ -474,7 +474,7 @@
         <command>nitrogen</command>
       </action>
     </keybind>
-    <keybind key="C-A-n">
+    <keybind key="C-A-u">
       <action name="Execute">
         <command>obconf</command>
       </action>
