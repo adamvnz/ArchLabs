@@ -1,21 +1,21 @@
-# ArchLabs
+# ARCHLabs
 
-##How to install ArchLabs and customize it
+##How to install ARCHLabs and customize it
 
-All information about the installation and customization of ArchLabs can be found in this **article** and is explained in **several youtube tutorials** : 
+All information about the installation and customization of ARCHLabs can be found in this **article** and is explained in **several youtube tutorials** : 
 
- To be written on a later date : http://erikdubois.be/how-to-install-archlabs-and-customize-it/ 
+ To be written on a later date : http://erikdubois.be/how-to-install-ARCHLabs-and-customize-it/ 
 
- ArchLabs is still quite recent. We will wait for an official release after some iterations. 
+ ARCHLabs is still quite recent. We will wait for an official release after some iterations. 
  
  In the meantime you can follow us on 
 
  https://plus.google.com/communities/101475477052908495908
 
 
-# ArchLabs installation
+# ARCHLabs installation
 
-ArchLinux installation can be difficult for linux beginners. That is where the graphical installers can assist us. ArchLabs is using such an aid to make an installation as easy as pie.
+ArchLinux installation can be difficult for linux beginners. That is where the graphical installers can assist us. ARCHLabs is using such an aid to make an installation as easy as pie.
 
 ![Screenshots](http://i.imgur.com/YT6yIQZ.jpg)
 
@@ -192,7 +192,7 @@ More info can be found here : https://github.com/erikdubois/Surfn
 
 ##Install the Aureola conky collection
 
-Special conky colours for ArchLabs created
+Special conky colours for ARCHLabs created
 
 
 ![Screenshots](http://i.imgur.com/FL8PgNM.jpg)
@@ -259,7 +259,7 @@ use the git clone command
 
 
 
-# Youtube Resources ArchLabs
+# Youtube Resources ARCHLabs
 
 
 
