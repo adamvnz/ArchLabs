@@ -13,7 +13,6 @@ echo "####             Updating to the latest versions            ####"
 echo "################################################################"
 
 
-# installing refector to test wich servers are fastest
 sudo pacman -Syyu
 
 echo "################################################################"
