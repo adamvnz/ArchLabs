@@ -72,6 +72,7 @@ compton -b --config ~/.config/compton.conf &
 ## Set a wallpaper
 #(sleep 5;nitrogen --restore) &
 #variety will take care of that
+variety &
 
 #just for initial start
 #only for dual monitors
