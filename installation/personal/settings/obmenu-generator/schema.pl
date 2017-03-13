@@ -72,7 +72,8 @@ our $SCHEMA = [
         {item => ["$editor ~/.config/compton.conf",  'Edit compton.config', 'compton']},
         {pipe => ['al-compositor', 'Compton', 'compton']},
         {sep => undef},
-        {pipe => ['al-printing-pipemenu', 'Printing', 'printer']},
+        {item => ['system-config-printer',  'Printing', 'printer']},        
+        #{pipe => ['al-printing-pipemenu', 'Printing', 'printer']},
     {end_cat => undef},
 
     # Openbox category

@@ -1,4 +1,4 @@
-2017-03-09	rc.xml KEYBINDS
+2017-03-12	rc.xml KEYBINDS
 -------------------------------
 
  0	C-A-m           	xfce4-settings-manager
@@ -51,56 +51,58 @@
 47	C-A-W           	subl3
 48	C-A-S           	spotify
 49	C-A-C           	catfish
-50	C-A-F           	firefox
-51	C-A-d           	ToggleShowDesktop
-52	W-Return        	gnome-terminal
-53	S-W-Return      	nemo
-54	C-A-N           	nemo --quit
-55	W-d             	dmenu_run -i -nb '#151617' -nf '#d8d8d8' -sb '#d8d8d8' -sf '#151617' -fn 'N.....
-56	W-S-d           	dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'N.....
-57	C-A-T           	gnome-terminal
-58	C-A-Up          	GoToDesktop
-59	C-A-Down        	GoToDesktop
-60	S-A-Left        	SendToDesktop
-61	S-A-Right       	SendToDesktop
-62	S-A-Up          	SendToDesktop
-63	S-A-Down        	SendToDesktop
-64	W-b             	ToggleDecorations
-65	A-Escape        	Lower
-66	A-space         	client-menu
-67	A-F8            	ToggleDecorations
-68	A-F2            	gmrun
-69	A-F3            	dmenu_run -i -nb '#151617' -nf '#d8d8d8' -sb '#d8d8d8' -sf '#151617' -fn 'N.....
-70	A-F4            	Close
-71	A-F5            	Iconify
-72	A-F6            	ToggleMaximize
-73	Print           	xfce4-screenshooter
-74	A-Print         	scrot '%Y-%m-%d--%s_$wx$h_scrot.png' -e 'mv $f ~/Pictures/ '
-75	C-Print         	gnome-screenshot -i
-76	A-Tab           	NextWindow
-77	A-S-Tab         	PreviousWindow
-78	W-S-Right       	DirectionalCycleWindows
-79	W-S-Left        	DirectionalCycleWindows
-80	W-S-Up          	DirectionalCycleWindows
-81	W-S-Down        	DirectionalCycleWindows
-82	W-f             	ToggleMaximizeFull
-83	W-s             	mintstick -m iso
-84	W-t             	termite
-85	W-l             	slimlock
-86	W-e             	geany
-87	W-m             	audacious
-88	W-h             	urxvt -T 'htop task manager' -e htop
-89	W-v             	pavucontrol
-90	W-x             	oblogout
-91	W-Escape        	xkill
-92	W-Tab           	client-list-combined-menu
-93	W-space         	root-menu
-94	C-A-a           	xfce4-appfinder
-95	W-Right         	GrowToEdgeEast
-96	W-Left          	GrowToEdgeWest
-97	W-Down          	GrowToEdgeSouth
-98	W-Up            	GrowToEdgeNorth
-99	W-A-Left        	UnmaximizeFull
-100	W-A-Right       	UnmaximizeFull
-101	A-r             	Resize
-102	A-m             	Move
+50	C-A-i           	nitrogen
+51	C-A-u           	obconf
+52	C-A-F           	firefox
+53	C-A-d           	ToggleShowDesktop
+54	W-Return        	gnome-terminal
+55	S-W-Return      	nemo
+56	C-A-N           	nemo --quit
+57	W-d             	dmenu_run -i -nb '#151617' -nf '#d8d8d8' -sb '#d8d8d8' -sf '#151617' -fn 'N.....
+58	W-S-d           	dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'N.....
+59	C-A-T           	gnome-terminal
+60	C-A-Up          	GoToDesktop
+61	C-A-Down        	GoToDesktop
+62	S-A-Left        	SendToDesktop
+63	S-A-Right       	SendToDesktop
+64	S-A-Up          	SendToDesktop
+65	S-A-Down        	SendToDesktop
+66	W-b             	ToggleDecorations
+67	A-Escape        	Lower
+68	A-space         	client-menu
+69	A-F8            	ToggleDecorations
+70	A-F2            	gmrun
+71	A-F3            	dmenu_run -i -nb '#151617' -nf '#d8d8d8' -sb '#d8d8d8' -sf '#151617' -fn 'N.....
+72	A-F4            	Close
+73	A-F5            	Iconify
+74	A-F6            	ToggleMaximize
+75	Print           	xfce4-screenshooter
+76	A-Print         	scrot '%Y-%m-%d--%s_$wx$h_scrot.png' -e 'mv $f ~/Pictures/ '
+77	C-Print         	gnome-screenshot -i
+78	A-Tab           	NextWindow
+79	A-S-Tab         	PreviousWindow
+80	W-S-Right       	DirectionalCycleWindows
+81	W-S-Left        	DirectionalCycleWindows
+82	W-S-Up          	DirectionalCycleWindows
+83	W-S-Down        	DirectionalCycleWindows
+84	W-f             	ToggleMaximizeFull
+85	W-s             	mintstick -m iso
+86	W-t             	termite
+87	W-l             	slimlock
+88	W-e             	geany
+89	W-m             	audacious
+90	W-h             	urxvt -T 'htop task manager' -e htop
+91	W-v             	pavucontrol
+92	W-x             	oblogout
+93	W-Escape        	xkill
+94	W-Tab           	client-list-combined-menu
+95	W-space         	root-menu
+96	C-A-a           	xfce4-appfinder
+97	W-Right         	GrowToEdgeEast
+98	W-Left          	GrowToEdgeWest
+99	W-Down          	GrowToEdgeSouth
+100	W-Up            	GrowToEdgeNorth
+101	W-A-Left        	UnmaximizeFull
+102	W-A-Right       	UnmaximizeFull
+103	A-r             	Resize
+104	A-m             	Move
