@@ -1,6 +1,6 @@
 # ARCHLabs
 
-#How to install ARCHLabs and customize it
+How to install ARCHLabs and customize it
 
 All information about the installation and customization of ARCHLabs can be found in this **article** and is explained in **several youtube tutorials** : 
 
