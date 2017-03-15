@@ -1112,6 +1112,13 @@
     <!-- show the manage desktops section in the client-list-(combined-)menu -->
   </menu>
   <applications>
+    <application name="Firefox">
+      <position force="yes">
+        <desktop>1</desktop>
+        <monitor>1</monitor>
+      </position>
+      <maximized>yes</maximized>
+    </application>
     <application name="Spotify">
       <position force="yes">
         <desktop>2</desktop>
