@@ -1,4 +1,4 @@
-2017-03-12	rc.xml KEYBINDS
+2017-03-16	rc.xml KEYBINDS
 -------------------------------
 
  0	C-A-m           	xfce4-settings-manager

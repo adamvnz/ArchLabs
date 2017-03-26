@@ -320,6 +320,11 @@
 					<execute>killall conky</execute>
 				</action>
 			</item>
+			<item label="Start golden logo">
+				<action name="Execute">
+					<execute>conky -c ~/.aureola/logo/conky.conf</execute>
+				</action>
+			</item>
 			<item label="Aureola Conky">
 				<action name="Execute">
 					<execute>exo-open ~/.config/conky/conky.conf</execute>
