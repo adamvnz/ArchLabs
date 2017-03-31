@@ -19,6 +19,11 @@
 ## http://forums.bunsenlabs.org (registration required)
 ##
 
+## Compton
+## NOTE: composition must be started before tint2
+compton -b --config ~/.config/compton.conf &
+
+
 ### SETTINGS START
 # only for virtualbox
 xrandr --output VGA-1 --mode 1920x1080
@@ -64,11 +69,6 @@ setxkbmap -option ctrl:nocaps
 ### TOUCHPAD END
 
 ### SETTINGS END
-
-## Compton
-## NOTE: composition must be started before tint2
-compton -b --config ~/.config/compton.conf &
-
 
 
 ## Set a wallpaper
