@@ -330,6 +330,7 @@
 					<execute>exo-open ~/.config/conky/conky.conf</execute>
 				</action>
 			</item>
+			<menu execute="/usr/bin/al-conky-pipemenu" id="pipe-conkymenu" label="Conky"/>
 			<menu execute="al-compositor" id="CompositingPipeMenu" label="Compositor"/>
 			<item label="Keyboard Shortcuts">
 				<action name="Execute">
