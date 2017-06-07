@@ -15,7 +15,7 @@
 # git init
 # git add README.md
 # git commit -m "first commit"
-# git remote add origin https://github.com/erikdubois/Ultimate-Linux-Mint-18-Cinnamon.git
+# git remote add origin https://github.com/adamvnz/ArchLabs.git
 # git push -u origin master
 
 # git config --global user.name x
