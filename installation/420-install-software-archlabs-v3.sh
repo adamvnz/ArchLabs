@@ -18,9 +18,9 @@ sudo pacman -S viewnior --needed --noconfirm
 sudo pacman -S audacity --needed --noconfirm
 sudo pacman -S xfburn --needed --noconfirm
 sudo pacman -S gtk-recordmydesktop --needed --noconfirm
-sudo pacman -S opera --needed --noconfirm
+#sudo pacman -S opera --needed --noconfirm
 sudo pacman -S libreoffice --needed --noconfirm
-sudo pacman -S gnumeric --needed --noconfirm
+#sudo pacman -S gnumeric --needed --noconfirm
 sudo pacman -S sakura --needed --noconfirm
 
 #octopi is giving problems

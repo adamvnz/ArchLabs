@@ -19,7 +19,7 @@ sudo systemctl start smbd.service
 sudo systemctl enable nmbd.service
 sudo systemctl start nmbd.service
 ##Change your username here
-sudo smbpasswd -a erik
+sudo smbpasswd -a adam
 
 #access samba share windows
 sudo pacman -S --noconfirm --needed gvfs-smb

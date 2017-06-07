@@ -31,7 +31,7 @@ set -e
 
 # Dropbox
 
-#sh install-dropbox-v1.sh
+sh install-dropbox-v1.sh
 
 ###############################################################################################
 
@@ -59,6 +59,12 @@ sh install-neofetch-v1.sh
 
 ###############################################################################################
 
+# Nextcloud
+
+sh install-nextcloud_client-v1.sh
+
+###############################################################################################
+
 # Peek
 
 #sh install-peek-v1.sh
@@ -67,7 +73,7 @@ sh install-neofetch-v1.sh
 
 # Spotify
 
-sh install-spotify-v1.sh
+#sh install-spotify-v1.sh
 
 ###############################################################################################
 
@@ -79,7 +85,7 @@ sh install-sublime-text-v1.sh
 
 # Teamviewer
 
-#sh install-teamviewer-v1.sh
+sh install-teamviewer-v1.sh
 
 #############################################################################################
 
