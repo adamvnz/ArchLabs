@@ -61,7 +61,7 @@ sh install-neofetch-v1.sh
 
 # Nextcloud
 
-sh install-nextcloud_client-v1.sh
+sh install-nextcloud-client-v1.sh
 
 ###############################################################################################
 
