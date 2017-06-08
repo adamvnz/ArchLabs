@@ -80,7 +80,7 @@ our $CONFIG = {
                                                           "/usr/local/share/applications",
                                                           "/usr/share/applications/kde4",
                                                         ],
-                             gtk_rc_filename         => "/home/erik/.gtkrc-2.0",
+                             gtk_rc_filename         => "/home/adam/.gtkrc-2.0",
                              icon_dirs_first         => undef,
                              icon_dirs_last          => undef,
                              icon_dirs_second        => undef,
